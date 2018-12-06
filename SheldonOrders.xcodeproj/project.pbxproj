@@ -21,6 +21,8 @@
 		5433286021B9B19100965443 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433285F21B9B19100965443 /* Router.swift */; };
 		5433286221B9B8F800965443 /* UIViewController+RegisterNibs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433286121B9B8F800965443 /* UIViewController+RegisterNibs.swift */; };
 		5433286521B9C77400965443 /* ConatinerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433286421B9C77400965443 /* ConatinerView.swift */; };
+		5433286921B9D7A800965443 /* MealType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433286821B9D7A800965443 /* MealType.swift */; };
+		5433286E21B9D8EE00965443 /* MealTypeMocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433286D21B9D8EE00965443 /* MealTypeMocker.swift */; };
 		5438943A21A49C5E005435C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438943921A49C5E005435C4 /* AppDelegate.swift */; };
 		5438943F21A49C5E005435C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5438943D21A49C5E005435C4 /* Main.storyboard */; };
 		5438944121A49C5F005435C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5438944021A49C5F005435C4 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		5433285F21B9B19100965443 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		5433286121B9B8F800965443 /* UIViewController+RegisterNibs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RegisterNibs.swift"; sourceTree = "<group>"; };
 		5433286421B9C77400965443 /* ConatinerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConatinerView.swift; sourceTree = "<group>"; };
+		5433286821B9D7A800965443 /* MealType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealType.swift; sourceTree = "<group>"; };
+		5433286D21B9D8EE00965443 /* MealTypeMocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTypeMocker.swift; sourceTree = "<group>"; };
 		5438943621A49C5E005435C4 /* SheldonOrders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheldonOrders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5438943921A49C5E005435C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5438943E21A49C5E005435C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,12 +76,9 @@
 		540E012D21B867900033F220 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				540E012E21B867A50033F220 /* Colors.swift */,
-				540E013021B867CE0033F220 /* Fonts.swift */,
-				540E013C21B86F250033F220 /* Shadows.swift */,
-				5433285B21B9AD4E00965443 /* Cells.swift */,
-				5433285D21B9AFA200965443 /* StoryboardIds.swift */,
-				5433285F21B9B19100965443 /* Router.swift */,
+				5433286C21B9D8DA00965443 /* Mockers */,
+				5433286B21B9D8CB00965443 /* Network */,
+				5433286A21B9D8BB00965443 /* Constants */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -134,6 +135,49 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		5433286621B9D73600965443 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5433286821B9D7A800965443 /* MealType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5433286721B9D74100965443 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5433286A21B9D8BB00965443 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				540E012E21B867A50033F220 /* Colors.swift */,
+				540E013021B867CE0033F220 /* Fonts.swift */,
+				540E013C21B86F250033F220 /* Shadows.swift */,
+				5433285B21B9AD4E00965443 /* Cells.swift */,
+				5433285D21B9AFA200965443 /* StoryboardIds.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5433286B21B9D8CB00965443 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5433285F21B9B19100965443 /* Router.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5433286C21B9D8DA00965443 /* Mockers */ = {
+			isa = PBXGroup;
+			children = (
+				5433286D21B9D8EE00965443 /* MealTypeMocker.swift */,
+			);
+			path = Mockers;
+			sourceTree = "<group>";
+		};
 		5438942D21A49C5D005435C4 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +197,8 @@
 		5438943821A49C5E005435C4 /* SheldonOrders */ = {
 			isa = PBXGroup;
 			children = (
+				5433286721B9D74100965443 /* Protocols */,
+				5433286621B9D73600965443 /* Models */,
 				540E013E21B87C2B0033F220 /* Extensions */,
 				540E013421B86CCE0033F220 /* Components */,
 				540E012D21B867900033F220 /* Utilities */,
@@ -240,9 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				540E013B21B86DEA0033F220 /* LoginButton.swift in Sources */,
+				5433286E21B9D8EE00965443 /* MealTypeMocker.swift in Sources */,
 				540E013D21B86F250033F220 /* Shadows.swift in Sources */,
 				540E013321B86C230033F220 /* LoginViewController.swift in Sources */,
 				5433285521B9ACEA00965443 /* MealTypesViewController.swift in Sources */,
+				5433286921B9D7A800965443 /* MealType.swift in Sources */,
 				5433286021B9B19100965443 /* Router.swift in Sources */,
 				5438943A21A49C5E005435C4 /* AppDelegate.swift in Sources */,
 				5433286521B9C77400965443 /* ConatinerView.swift in Sources */,

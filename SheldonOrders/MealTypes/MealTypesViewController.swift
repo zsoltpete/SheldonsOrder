@@ -12,6 +12,9 @@ class MealTypesViewController: UIViewController, CollectionViewNibRegistration {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
+    let mealTypeMocker = MealTypeMocker()
+    lazy var mealTypes = self.mealTypeMocker.getMealType()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.collectionView.dataSource = self
@@ -31,13 +34,14 @@ class MealTypesViewController: UIViewController, CollectionViewNibRegistration {
 
 extension MealTypesViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 12
+        return mealTypes.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Cells.MealTypeCell, for: indexPath) as? MealTypeCell else {
             return UICollectionViewCell()
         }
+        cell.bind(model: mealTypes[indexPath.row])
         return cell
     }
     

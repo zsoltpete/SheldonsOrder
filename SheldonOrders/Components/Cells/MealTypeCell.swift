@@ -8,6 +8,13 @@
 
 import UIKit
 
+protocol MealTypeCellBindable {
+    
+    var pTitle: String { get }
+    var pImage: UIImage { get }
+    
+}
+
 class MealTypeCell: UICollectionViewCell, ViewCornerWithShadowable {
     
     var shadowLayer: CAShapeLayer?
@@ -51,6 +58,11 @@ class MealTypeCell: UICollectionViewCell, ViewCornerWithShadowable {
 
     override func draw(_ rect: CGRect) {
         super.draw(rect)
+    }
+    
+    func bind(model: MealTypeCellBindable) {
+        self.titleLabel.text = model.pTitle
+        self.imageView.image = model.pImage
     }
 
 }
