@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MealTypeCell" id="dYf-dT-HhS" customClass="MealTypeCell" customModule="SheldonOrders" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="151" height="177"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="151" height="177"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jXM-06-enf" customClass="ConatinerView" customModule="SheldonOrders" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="135" height="161"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meal" translatesAutoresizingMaskIntoConstraints="NO" id="yB9-8E-G6m">
+                                <rect key="frame" x="25" y="25" width="85" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yB9-8E-G6m" secondAttribute="height" multiplier="1:1" id="2UM-K5-61f"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJR-9C-3F0">
+                                <rect key="frame" x="0.0" y="115" width="135" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yB9-8E-G6m" secondAttribute="trailing" constant="25" id="Ecj-KU-aaS"/>
+                            <constraint firstItem="cJR-9C-3F0" firstAttribute="width" secondItem="jXM-06-enf" secondAttribute="width" id="IGz-h6-nre"/>
+                            <constraint firstItem="yB9-8E-G6m" firstAttribute="leading" secondItem="jXM-06-enf" secondAttribute="leading" constant="25" id="VGn-nl-cdS"/>
+                            <constraint firstItem="cJR-9C-3F0" firstAttribute="leading" secondItem="jXM-06-enf" secondAttribute="leading" id="aHb-Fb-MQu"/>
+                            <constraint firstAttribute="bottom" secondItem="cJR-9C-3F0" secondAttribute="bottom" constant="25" id="u2e-v8-Sk2"/>
+                            <constraint firstItem="yB9-8E-G6m" firstAttribute="top" secondItem="jXM-06-enf" secondAttribute="top" constant="25" id="w7k-sR-JUa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jXM-06-enf" firstAttribute="leading" secondItem="dYf-dT-HhS" secondAttribute="leading" constant="8" id="1xi-Uv-3Dt"/>
+                <constraint firstAttribute="trailing" secondItem="jXM-06-enf" secondAttribute="trailing" constant="8" id="Msw-cF-FUk"/>
+                <constraint firstItem="jXM-06-enf" firstAttribute="top" secondItem="dYf-dT-HhS" secondAttribute="top" constant="8" id="T4d-lm-cbx"/>
+                <constraint firstAttribute="bottom" secondItem="jXM-06-enf" secondAttribute="bottom" constant="8" id="rhi-hm-egV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Wdl-2r-sOE"/>
+            <size key="customSize" width="131" height="128"/>
+            <connections>
+                <outlet property="containerView" destination="jXM-06-enf" id="fml-GK-7y9"/>
+                <outlet property="imageView" destination="yB9-8E-G6m" id="YGI-VY-wSE"/>
+                <outlet property="titleLabel" destination="cJR-9C-3F0" id="4FB-Xu-V7z"/>
+            </connections>
+            <point key="canvasLocation" x="287.5" y="-172"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="meal" width="48" height="48"/>
+    </resources>
+</document>

@@ -7,17 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540E012F21B867A50033F220 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E012E21B867A50033F220 /* Colors.swift */; };
+		540E013121B867CE0033F220 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E013021B867CE0033F220 /* Fonts.swift */; };
+		540E013321B86C230033F220 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E013221B86C230033F220 /* LoginViewController.swift */; };
+		540E013B21B86DEA0033F220 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E013A21B86DEA0033F220 /* LoginButton.swift */; };
+		540E013D21B86F250033F220 /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E013C21B86F250033F220 /* Shadows.swift */; };
+		540E014021B87C390033F220 /* UIView+CornersWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E013F21B87C390033F220 /* UIView+CornersWithShadow.swift */; };
+		5433285521B9ACEA00965443 /* MealTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433285421B9ACEA00965443 /* MealTypesViewController.swift */; };
+		5433285921B9AD3200965443 /* MealTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433285721B9AD3200965443 /* MealTypeCell.swift */; };
+		5433285A21B9AD3200965443 /* MealTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5433285821B9AD3200965443 /* MealTypeCell.xib */; };
+		5433285C21B9AD4E00965443 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433285B21B9AD4E00965443 /* Cells.swift */; };
+		5433285E21B9AFA200965443 /* StoryboardIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433285D21B9AFA200965443 /* StoryboardIds.swift */; };
+		5433286021B9B19100965443 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433285F21B9B19100965443 /* Router.swift */; };
+		5433286221B9B8F800965443 /* UIViewController+RegisterNibs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433286121B9B8F800965443 /* UIViewController+RegisterNibs.swift */; };
+		5433286521B9C77400965443 /* ConatinerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433286421B9C77400965443 /* ConatinerView.swift */; };
 		5438943A21A49C5E005435C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438943921A49C5E005435C4 /* AppDelegate.swift */; };
-		5438943C21A49C5E005435C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438943B21A49C5E005435C4 /* ViewController.swift */; };
 		5438943F21A49C5E005435C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5438943D21A49C5E005435C4 /* Main.storyboard */; };
 		5438944121A49C5F005435C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5438944021A49C5F005435C4 /* Assets.xcassets */; };
 		5438944421A49C5F005435C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5438944221A49C5F005435C4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		540E012E21B867A50033F220 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		540E013021B867CE0033F220 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		540E013221B86C230033F220 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		540E013A21B86DEA0033F220 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		540E013C21B86F250033F220 /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
+		540E013F21B87C390033F220 /* UIView+CornersWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CornersWithShadow.swift"; sourceTree = "<group>"; };
+		5433285421B9ACEA00965443 /* MealTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTypesViewController.swift; sourceTree = "<group>"; };
+		5433285721B9AD3200965443 /* MealTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTypeCell.swift; sourceTree = "<group>"; };
+		5433285821B9AD3200965443 /* MealTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealTypeCell.xib; sourceTree = "<group>"; };
+		5433285B21B9AD4E00965443 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		5433285D21B9AFA200965443 /* StoryboardIds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardIds.swift; sourceTree = "<group>"; };
+		5433285F21B9B19100965443 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		5433286121B9B8F800965443 /* UIViewController+RegisterNibs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RegisterNibs.swift"; sourceTree = "<group>"; };
+		5433286421B9C77400965443 /* ConatinerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConatinerView.swift; sourceTree = "<group>"; };
 		5438943621A49C5E005435C4 /* SheldonOrders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheldonOrders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5438943921A49C5E005435C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5438943B21A49C5E005435C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5438943E21A49C5E005435C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5438944021A49C5F005435C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5438944321A49C5F005435C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +61,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		540E012C21B867880033F220 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				540E013221B86C230033F220 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		540E012D21B867900033F220 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				540E012E21B867A50033F220 /* Colors.swift */,
+				540E013021B867CE0033F220 /* Fonts.swift */,
+				540E013C21B86F250033F220 /* Shadows.swift */,
+				5433285B21B9AD4E00965443 /* Cells.swift */,
+				5433285D21B9AFA200965443 /* StoryboardIds.swift */,
+				5433285F21B9B19100965443 /* Router.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		540E013421B86CCE0033F220 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5433286321B9C75F00965443 /* Views */,
+				5433285621B9AD0600965443 /* Cells */,
+				540E013521B86D240033F220 /* Buttons */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		540E013521B86D240033F220 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				540E013A21B86DEA0033F220 /* LoginButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		540E013E21B87C2B0033F220 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				540E013F21B87C390033F220 /* UIView+CornersWithShadow.swift */,
+				5433286121B9B8F800965443 /* UIViewController+RegisterNibs.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5433285321B9ACCF00965443 /* MealTypes */ = {
+			isa = PBXGroup;
+			children = (
+				5433285421B9ACEA00965443 /* MealTypesViewController.swift */,
+			);
+			path = MealTypes;
+			sourceTree = "<group>";
+		};
+		5433285621B9AD0600965443 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5433285721B9AD3200965443 /* MealTypeCell.swift */,
+				5433285821B9AD3200965443 /* MealTypeCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5433286321B9C75F00965443 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5433286421B9C77400965443 /* ConatinerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5438942D21A49C5D005435C4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +153,12 @@
 		5438943821A49C5E005435C4 /* SheldonOrders */ = {
 			isa = PBXGroup;
 			children = (
+				540E013E21B87C2B0033F220 /* Extensions */,
+				540E013421B86CCE0033F220 /* Components */,
+				540E012D21B867900033F220 /* Utilities */,
+				5433285321B9ACCF00965443 /* MealTypes */,
+				540E012C21B867880033F220 /* Login */,
 				5438943921A49C5E005435C4 /* AppDelegate.swift */,
-				5438943B21A49C5E005435C4 /* ViewController.swift */,
 				5438943D21A49C5E005435C4 /* Main.storyboard */,
 				5438944021A49C5F005435C4 /* Assets.xcassets */,
 				5438944221A49C5F005435C4 /* LaunchScreen.storyboard */,
@@ -124,6 +227,7 @@
 			files = (
 				5438944421A49C5F005435C4 /* LaunchScreen.storyboard in Resources */,
 				5438944121A49C5F005435C4 /* Assets.xcassets in Resources */,
+				5433285A21B9AD3200965443 /* MealTypeCell.xib in Resources */,
 				5438943F21A49C5E005435C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +239,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5438943C21A49C5E005435C4 /* ViewController.swift in Sources */,
+				540E013B21B86DEA0033F220 /* LoginButton.swift in Sources */,
+				540E013D21B86F250033F220 /* Shadows.swift in Sources */,
+				540E013321B86C230033F220 /* LoginViewController.swift in Sources */,
+				5433285521B9ACEA00965443 /* MealTypesViewController.swift in Sources */,
+				5433286021B9B19100965443 /* Router.swift in Sources */,
 				5438943A21A49C5E005435C4 /* AppDelegate.swift in Sources */,
+				5433286521B9C77400965443 /* ConatinerView.swift in Sources */,
+				5433285921B9AD3200965443 /* MealTypeCell.swift in Sources */,
+				540E013121B867CE0033F220 /* Fonts.swift in Sources */,
+				5433285E21B9AFA200965443 /* StoryboardIds.swift in Sources */,
+				540E014021B87C390033F220 /* UIView+CornersWithShadow.swift in Sources */,
+				540E012F21B867A50033F220 /* Colors.swift in Sources */,
+				5433286221B9B8F800965443 /* UIViewController+RegisterNibs.swift in Sources */,
+				5433285C21B9AD4E00965443 /* Cells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +399,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFEL4SQNP4;
 				INFOPLIST_FILE = SheldonOrders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +418,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFEL4SQNP4;
 				INFOPLIST_FILE = SheldonOrders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
