@@ -11,5 +11,6 @@ import Foundation
 struct Cells {
 
     static let MealTypeCell = "MealTypeCell"
+    static let SelectTypeCell = "SelectTypeCell"
     
 }

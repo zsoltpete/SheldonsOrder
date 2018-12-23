@@ -18,6 +18,20 @@ class Router {
         
     }
     
+    func push( newController: UIViewController, animated: Bool, completiton: ((Bool) -> Void)? = nil) {
+        if let navigationController = self.controller as? UINavigationController {
+            self.controller = navigationController.viewControllers[0]
+        }
+        if let navigationController = self.controller?.navigationController {
+            navigationController.pushViewController(newController, animated: animated)
+            self.controller = newController
+            completiton?(true)
+        } else {
+            completiton?(false)
+        }
+        
+    }
+    
     func initController(storyboardId: String = "Main", controllerId: String, withNavigationController: Bool) {
         let storyboard = UIStoryboard(name: storyboardId, bundle: nil)
         let newController = storyboard.instantiateViewController(withIdentifier: controllerId)

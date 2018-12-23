@@ -29,6 +29,17 @@ class MealTypesViewController: UIViewController, CollectionViewNibRegistration {
     override func willMove(toParent parent: UIViewController?) {
         super.willMove(toParent: parent)
     }
+    
+    func showMeals(_ model: MealTypeCellBindable?){
+        guard let mealSelectionViewController = self.storyboard?.instantiateViewController(withIdentifier: StoryboardIds.MealSelectionViewController) as? MealSelectionViewController else {
+            return
+        }
+        if let mealType = model as? MealType {
+            mealSelectionViewController.mealType = mealType
+        }
+        Router.shared.push(newController: mealSelectionViewController, animated: true)
+        
+    }
 
 }
 
@@ -43,6 +54,18 @@ extension MealTypesViewController: UICollectionViewDataSource {
         }
         cell.bind(model: mealTypes[indexPath.row])
         return cell
+    }
+    
+}
+
+extension MealTypesViewController: UICollectionViewDelegate {
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let cell = collectionView.cellForItem(at: indexPath) as? MealTypeCell else {
+            return
+        }
+        let model = cell.item
+        self.showMeals(model)
     }
     
 }

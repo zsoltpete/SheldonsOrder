@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PixelPerfectSwift
 
 class LoginViewController: UIViewController {
 

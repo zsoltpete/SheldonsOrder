@@ -30,4 +30,11 @@ struct Fonts {
         static let MealTypeItem = UIFont(name: Fonts.Names.Verdana, size: 13.0)
     }
     
+    struct TypeSelectionCell {
+        static let Title = UIFont(name: Fonts.Names.Verdana, size: 13.0)
+        static let OrderButton = UIFont(name: Fonts.Names.VerdanaBold, size: 17.0)
+        static let Description = UIFont(name: Fonts.Names.Verdana, size: 11.0)
+        static let Price = UIFont(name: Fonts.Names.VerdanaBold, size: 15.0)
+    }
+    
 }

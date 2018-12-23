@@ -154,6 +154,36 @@
             </objects>
             <point key="canvasLocation" x="1810" y="15"/>
         </scene>
+        <!--Meal Selection View Controller-->
+        <scene sceneID="n0L-ev-ziC">
+            <objects>
+                <viewController storyboardIdentifier="MealSelectionViewController" id="ZcU-5g-lDM" customClass="MealSelectionViewController" customModule="SheldonOrders" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ba0-bh-Fxj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Hwa-hC-N3R">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Hwa-hC-N3R" firstAttribute="top" secondItem="Ba0-bh-Fxj" secondAttribute="top" id="V7H-m4-dSM"/>
+                            <constraint firstItem="Hwa-hC-N3R" firstAttribute="leading" secondItem="tEc-PJ-rZ1" secondAttribute="leading" id="Xid-sC-brv"/>
+                            <constraint firstAttribute="bottom" secondItem="Hwa-hC-N3R" secondAttribute="bottom" id="dWL-B9-scZ"/>
+                            <constraint firstItem="tEc-PJ-rZ1" firstAttribute="trailing" secondItem="Hwa-hC-N3R" secondAttribute="trailing" id="iS8-xg-Gi6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tEc-PJ-rZ1"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Hwa-hC-N3R" id="7ZN-BU-iYC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VrV-3r-n5U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2805" y="29"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="it6-Zv-ev8">
             <objects>

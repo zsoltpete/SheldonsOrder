@@ -23,7 +23,7 @@ class MealTypeCell: UICollectionViewCell, ViewCornerWithShadowable {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
 
-    //You do not change these methods
+    var item: MealTypeCellBindable?
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -61,6 +61,7 @@ class MealTypeCell: UICollectionViewCell, ViewCornerWithShadowable {
     }
     
     func bind(model: MealTypeCellBindable) {
+        self.item = model
         self.titleLabel.text = model.pTitle
         self.imageView.image = model.pImage
     }

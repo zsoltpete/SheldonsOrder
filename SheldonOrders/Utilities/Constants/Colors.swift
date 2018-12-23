@@ -21,6 +21,16 @@ struct Colors {
         static let LogiButtonShadow = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.5)
     }
     
+    struct TypeSelectionCell {
+        static let Title = UIColor.black
+        static let OrderButton = UIColor(red: 198/255, green: 198/255, blue: 198/255, alpha: 1.0)
+        static let OrderedButton = UIColor(red: 97/255, green: 189/255, blue: 235/255, alpha: 1.0)
+        static let Seperator = UIColor(red: 151/255, green: 151/255, blue: 151/255, alpha: 1.0)
+        static let Description = UIColor.black
+        static let Price = UIColor(red: 196/255, green: 81/255, blue: 81/255, alpha: 1.0)
+        static let Background = UIColor.white
+    }
+    
     struct MealTypeCell {
         static let Background = UIColor.white
     }
