@@ -26,6 +26,8 @@ class SelectTypeCell: UITableViewCell {
     @IBOutlet weak var priceLabel: UILabel!
     
     var isExpanded = false
+    var isOrder = false
+    var orderCompletition: ((Bool) -> ())?
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -96,5 +98,17 @@ class SelectTypeCell: UITableViewCell {
         super.draw(rect)
         self.containerView.layer.cornerRadius = 8.0
     }
-
+    
+    @IBAction func order(_ sender: Any) {
+        self.isOrder = !self.isOrder
+        self.orderCompletition?(self.isOrder)
+        if isOrder {
+            self.orderButton.setTitle("Ordered", for: .normal)
+            self.orderButton.setTitleColor(Colors.TypeSelectionCell.OrderedButton, for: .normal)
+        } else {
+            self.orderButton.setTitle("Order", for: .normal)
+            self.orderButton.setTitleColor(Colors.TypeSelectionCell.OrderButton, for: .normal)
+        }
+    }
+    
 }

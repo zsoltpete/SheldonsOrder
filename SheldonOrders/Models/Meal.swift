@@ -35,8 +35,22 @@ extension Meal: SelectTypeCellBindable {
     var pDescription: String {
         return self.description ?? ""
     }
-    
-    
-    
-    
+
 }
+
+extension Meal: Equatable {
+    
+    static func == (lhs: Meal, rhs: Meal) -> Bool {
+        return lhs.name! == rhs.name!
+    }
+}
+
+extension Array where Element: Equatable {
+    
+    mutating func remove(object: Element) {
+        if let index = index(of: object) {
+            remove(at: index)
+        }
+    }
+}
+

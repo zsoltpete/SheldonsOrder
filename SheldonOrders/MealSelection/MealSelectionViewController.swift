@@ -25,7 +25,12 @@ class MealSelectionViewController: UIViewController, TableViewNibRegistration {
         self.tableView.delegate = self
         self.tableView.estimatedRowHeight = 66
     }
-
+    
+    @IBAction func completeOrder(_ sender: Any) {
+        OrderManager.shared.completeOrder()
+        self.navigationController?.popViewController(animated: false)
+    }
+    
 }
 
 extension MealSelectionViewController: UITableViewDataSource {
@@ -43,6 +48,13 @@ extension MealSelectionViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         cell.bind(self.meals[indexPath.row])
+        cell.orderCompletition = { [weak self]isOrder in
+            if isOrder {
+                OrderManager.shared.add(meal: self!.meals[indexPath.row])
+            } else {
+                OrderManager.shared.remove(meal: self!.meals[indexPath.row])
+            }
+        }
         return cell
     }
     

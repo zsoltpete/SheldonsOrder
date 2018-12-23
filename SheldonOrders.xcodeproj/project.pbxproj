@@ -32,6 +32,7 @@
 		54F0469B21D0121C007FC758 /* TypeSelectionMocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0469A21D0121C007FC758 /* TypeSelectionMocker.swift */; };
 		54F0469D21D0123F007FC758 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0469C21D0123F007FC758 /* Meal.swift */; };
 		54F0469F21D01974007FC758 /* MealSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0469E21D01974007FC758 /* MealSelectionViewController.swift */; };
+		54F046A221D02AE6007FC758 /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F046A121D02AE6007FC758 /* OrderManager.swift */; };
 		744F26A8B9B211D331C047BF /* Pods_SheldonOrders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C3B8B4A1DF9A83D4912C54 /* Pods_SheldonOrders.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		54F0469A21D0121C007FC758 /* TypeSelectionMocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSelectionMocker.swift; sourceTree = "<group>"; };
 		54F0469C21D0123F007FC758 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		54F0469E21D01974007FC758 /* MealSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealSelectionViewController.swift; sourceTree = "<group>"; };
+		54F046A121D02AE6007FC758 /* OrderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderManager.swift; sourceTree = "<group>"; };
 		C9C7041A50A0F3ED467495C6 /* Pods-SheldonOrders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SheldonOrders.release.xcconfig"; path = "Pods/Target Support Files/Pods-SheldonOrders/Pods-SheldonOrders.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 		540E012D21B867900033F220 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				54F046A021D02AD4007FC758 /* Managers */,
 				5433286C21B9D8DA00965443 /* Mockers */,
 				5433286B21B9D8CB00965443 /* Network */,
 				5433286A21B9D8BB00965443 /* Constants */,
@@ -252,6 +255,14 @@
 			path = MealSelection;
 			sourceTree = "<group>";
 		};
+		54F046A021D02AD4007FC758 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				54F046A121D02AE6007FC758 /* OrderManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		81C46AEEAC907071BB55C2A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,6 +411,7 @@
 				5433285E21B9AFA200965443 /* StoryboardIds.swift in Sources */,
 				540E014021B87C390033F220 /* UIView+CornersWithShadow.swift in Sources */,
 				540E012F21B867A50033F220 /* Colors.swift in Sources */,
+				54F046A221D02AE6007FC758 /* OrderManager.swift in Sources */,
 				5433286221B9B8F800965443 /* UIViewController+RegisterNibs.swift in Sources */,
 				5433285C21B9AD4E00965443 /* Cells.swift in Sources */,
 			);
