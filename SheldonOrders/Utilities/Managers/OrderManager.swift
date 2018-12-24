@@ -19,7 +19,28 @@ class OrderManager {
     }
     
     func add(meal: Meal) {
+        self.items = self.getAllOrderedMeals()
         self.items.append(meal)
+        
+        if let userDefaults = UserDefaults(suiteName: "group.eu.codeyard.SheldonOrders.Shared") {
+            let mealsData = try! JSONEncoder().encode(self.items)
+            userDefaults.set(mealsData, forKey: "Meals")
+        }
+    }
+    
+    func getAllOrderedMeals() -> [Meal] {
+        
+        var meals = [Meal]()
+        
+        if let userDefaults = UserDefaults(suiteName: "group.eu.codeyard.SheldonOrders.Shared") {
+            if let mealsData = userDefaults.data(forKey: "Meals") {
+                meals = try! JSONDecoder().decode([Meal].self, from: mealsData)
+            }
+            
+        }
+        
+        return meals
+        
     }
     
     func remove(meal: Meal){
@@ -27,6 +48,9 @@ class OrderManager {
     }
     
     func completeOrder(){
+        if !self.items.isEmpty {
+            IntentManager.shared.donateMealIntent(meal: self.items[0])
+        }
         self.items = []
     }
     

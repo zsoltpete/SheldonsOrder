@@ -7,17 +7,20 @@
 //
 
 import UIKit
+import Intents
 
-class Meal {
+class Meal: Codable {
     
     var name: String?
     var price: CGFloat?
     var description: String?
+    var mealType: MealTypeEnum?
     
-    init(name: String, price: CGFloat, description: String) {
+    init(name: String, price: CGFloat, description: String, mealType: MealTypeEnum) {
         self.name = name
         self.price = price
         self.description = description
+        self.mealType = mealType
     }
     
 }
@@ -43,6 +46,22 @@ extension Meal: Equatable {
     static func == (lhs: Meal, rhs: Meal) -> Bool {
         return lhs.name! == rhs.name!
     }
+}
+
+extension Meal {
+    
+    var intent: OrderMealIntent {
+        
+        let orderMealIntent = OrderMealIntent()
+        
+        orderMealIntent.price = NSNumber(value: Double(self.price ?? 0))
+        orderMealIntent.meal = self.name ?? ""
+        orderMealIntent.setImage(INImage(named: (self.mealType?.rawValue ?? "").lowercased()), forParameterNamed: \.meal)
+        
+        return orderMealIntent
+        
+    }
+    
 }
 
 extension Array where Element: Equatable {

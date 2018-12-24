@@ -9,13 +9,24 @@
 import Foundation
 import UIKit
 
+enum MealTypeEnum: String, Codable {
+    case Kebab
+    case Soup
+    case Burger
+    case Pizza
+    case Steak
+    case Protein
+    case Salad
+    case Thai
+}
+
 class MealType {
     
-    var name: String?
+    var type: MealTypeEnum?
     var imageUrl: String?
     
-    init(name: String?, imageUrl: String?) {
-        self.name = name
+    init(type: MealTypeEnum?, imageUrl: String?) {
+        self.type = type
         self.imageUrl = imageUrl
     }
     
@@ -29,7 +40,7 @@ extension MealType: MealTypeCellBindable {
     
     
     var pTitle: String {
-        return self.name ?? "UnNamed"
+        return self.type?.rawValue ?? ""
     }
     
     
