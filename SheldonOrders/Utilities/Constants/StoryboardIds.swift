@@ -13,5 +13,6 @@ struct StoryboardIds {
     static let LoginViewController = "LoginViewController"
     static let MealTypesViewController = "MealTypesViewController"
     static let MealSelectionViewController = "MealSelectionViewController"
+    static let HistoryViewController = "HistoryViewController"
     
 }

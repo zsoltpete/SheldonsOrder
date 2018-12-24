@@ -41,6 +41,15 @@ extension Meal: SelectTypeCellBindable {
 
 }
 
+extension Meal: HistoryCellBindable {
+    
+    var pimage: UIImage {
+        let imageName = (self.mealType?.rawValue ?? "").lowercased()
+        return UIImage(named: imageName)!
+    }
+    
+}
+
 extension Meal: Equatable {
     
     static func == (lhs: Meal, rhs: Meal) -> Bool {

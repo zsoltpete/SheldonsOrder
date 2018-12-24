@@ -28,7 +28,10 @@ class MealSelectionViewController: UIViewController, TableViewNibRegistration {
     
     @IBAction func completeOrder(_ sender: Any) {
         OrderManager.shared.completeOrder()
-        self.navigationController?.popViewController(animated: false)
+        guard let historyViewController = self.storyboard?.instantiateViewController(withIdentifier: StoryboardIds.HistoryViewController) else {
+            return
+        }
+        self.navigationController?.pushViewController(historyViewController, animated: true)
     }
     
 }

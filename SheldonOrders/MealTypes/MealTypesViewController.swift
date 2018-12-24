@@ -37,7 +37,7 @@ class MealTypesViewController: UIViewController, CollectionViewNibRegistration {
         if let mealType = model as? MealType {
             mealSelectionViewController.mealType = mealType
         }
-        Router.shared.push(newController: mealSelectionViewController, animated: true)
+        self.navigationController?.pushViewController(mealSelectionViewController, animated: true)
         
     }
 

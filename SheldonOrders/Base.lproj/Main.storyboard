@@ -193,6 +193,36 @@
             </objects>
             <point key="canvasLocation" x="3746.4000000000001" y="28.817733990147783"/>
         </scene>
+        <!--History View Controller-->
+        <scene sceneID="T27-Ww-Q7j">
+            <objects>
+                <viewController storyboardIdentifier="HistoryViewController" id="gKK-QO-T4L" customClass="HistoryViewController" customModule="SheldonOrders" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wmq-k8-qpJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="dhb-rI-agF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dhb-rI-agF" firstAttribute="leading" secondItem="laI-aO-O79" secondAttribute="leading" id="1ab-Ar-W5h"/>
+                            <constraint firstAttribute="bottom" secondItem="dhb-rI-agF" secondAttribute="bottom" id="VHq-Fh-UQt"/>
+                            <constraint firstItem="dhb-rI-agF" firstAttribute="top" secondItem="wmq-k8-qpJ" secondAttribute="top" id="YJC-JF-0hn"/>
+                            <constraint firstItem="laI-aO-O79" firstAttribute="trailing" secondItem="dhb-rI-agF" secondAttribute="trailing" id="e2M-dR-fDY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="laI-aO-O79"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="dhb-rI-agF" id="7PP-Q6-XtV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RAC-aD-8sP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4553" y="33"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="it6-Zv-ev8">
             <objects>

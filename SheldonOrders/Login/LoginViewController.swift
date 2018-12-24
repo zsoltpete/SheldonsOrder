@@ -58,7 +58,10 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func login(_ sender: Any) {
-        Router.shared.push(newControllerId: StoryboardIds.MealTypesViewController, animated: true, completiton: nil)
+        guard let mealTypesViewController = self.storyboard?.instantiateViewController(withIdentifier: StoryboardIds.MealTypesViewController) else {
+            return
+        }
+        self.navigationController?.pushViewController(mealTypesViewController, animated: true)
     }
     
 }
