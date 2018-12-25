@@ -18,8 +18,8 @@ class IntentHandler: INExtension, OrderMealIntentHandling {
     
     func handle(intent: OrderMealIntent, completion: @escaping (OrderMealIntentResponse) -> Void) {
         
-        let meal = Meal(intent: intent)
-        OrderManager.shared.add(meal: meal)
+        let meals = IntentManager.shared.createMeals(intent: intent)
+        OrderManager.shared.add(meals: meals)
         OrderManager.shared.completeOrder()
         
         completion(OrderMealIntentResponse(code: .success, userActivity: nil))

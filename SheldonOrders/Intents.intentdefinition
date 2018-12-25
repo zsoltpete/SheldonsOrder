@@ -124,12 +124,12 @@
 			<key>INIntentDescriptionID</key>
 			<string>mFsuZh</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>11</integer>
+			<integer>12</integer>
 			<key>INIntentName</key>
 			<string>OrderMeal</string>
 			<key>INIntentParameterCombinations</key>
 			<dict>
-				<key>meal</key>
+				<key>meals</key>
 				<dict>
 					<key>INIntentParameterCombinationIsPrimary</key>
 					<true/>
@@ -140,11 +140,11 @@
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>Order some ${meal}.</string>
+					<string>Order some ${meals}.</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>R9IvhC</string>
 				</dict>
-				<key>meal,price</key>
+				<key>meals,price</key>
 				<dict>
 					<key>INIntentParameterCombinationIsPrimary</key>
 					<false/>
@@ -155,11 +155,11 @@
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>Order ${meal} for ${price}.</string>
+					<string>Order ${meals} for ${price}.</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>jYFKJv</string>
 				</dict>
-				<key>type,meal,price</key>
+				<key>type,meals,price</key>
 				<dict>
 					<key>INIntentParameterCombinationIsPrimary</key>
 					<false/>
@@ -170,7 +170,7 @@
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>Order ${meal} for ${price}. It's a delicious ${type}.</string>
+					<string>Order ${meals} for ${price}. It's a delicious ${type}.</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>nhiQ1U</string>
 				</dict>
@@ -181,11 +181,11 @@
 					<key>INIntentParameterDisplayPriority</key>
 					<integer>1</integer>
 					<key>INIntentParameterName</key>
-					<string>meal</string>
+					<string>meals</string>
 					<key>INIntentParameterSupportsMultipleValues</key>
-					<false/>
+					<true/>
 					<key>INIntentParameterTag</key>
-					<integer>7</integer>
+					<integer>12</integer>
 					<key>INIntentParameterType</key>
 					<string>String</string>
 				</dict>

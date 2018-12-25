@@ -24,6 +24,12 @@ class OrderManager {
         
     }
     
+    func add(meals: [Meal]) {
+        self.items.append(contentsOf: meals)
+        
+        
+    }
+    
     func getAllOrderedMeals() -> [Meal] {
         
         var meals = [Meal]()
@@ -51,7 +57,7 @@ class OrderManager {
                 let mealsData = try! JSONEncoder().encode(orderedItems)
                 userDefaults.set(mealsData, forKey: "Meals")
             }
-            IntentManager.shared.donateMealIntent(meal: self.items[0])
+            IntentManager.shared.donateMealIntent(meals: self.items)
         }
         self.items = []
     }

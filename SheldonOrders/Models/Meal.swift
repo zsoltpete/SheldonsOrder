@@ -24,9 +24,11 @@ class Meal: Codable {
     }
     
     init(intent: OrderMealIntent) {
-        self.name = intent.meal
+        let mealTypeHelper = MealTypeHelper()
+        
+        self.name = intent.meals![0]
         self.price = CGFloat(intent.price?.floatValue ?? 0)
-        self.mealType = self.getMealTypeEnum(orderMealType: intent.type.rawValue)
+        self.mealType = mealTypeHelper.getMealTypeEnum(orderMealType: intent.type)
     }
     
 }
@@ -66,60 +68,16 @@ extension Meal: Equatable {
 extension Meal {
     
     var intent: OrderMealIntent {
-        
+        let mealTypeHelper = MealTypeHelper()
         let orderMealIntent = OrderMealIntent()
         
         orderMealIntent.price = NSNumber(value: Double(self.price ?? 0))
-        orderMealIntent.meal = self.name ?? ""
-        orderMealIntent.type = OrderMealType(rawValue: self.getOrderMealType(mealTypeEnum: self.mealType!))!
-        orderMealIntent.setImage(INImage(named: (self.mealType?.rawValue ?? "").lowercased()), forParameterNamed: \.meal)
+        orderMealIntent.meals = [self.name ?? ""]
+        orderMealIntent.type = OrderMealType(rawValue: mealTypeHelper.getOrderMealType(mealTypeEnum: self.mealType!))!
+        orderMealIntent.setImage(INImage(named: (self.mealType?.rawValue ?? "").lowercased()), forParameterNamed: \.meals)
         
         return orderMealIntent
         
-    }
-    
-    private func getOrderMealType(mealTypeEnum: MealTypeEnum) -> Int {
-        switch mealTypeEnum {
-        case .Kebab:
-            return 1
-        case .Soup:
-            return 2
-        case .Burger:
-            return 3
-        case .Pizza:
-            return 4
-        case .Steak:
-            return 5
-        case .Protein:
-            return 6
-        case .Salad:
-            return 7
-        case .Thai:
-            return 8
-        }
-    }
-    
-    private func getMealTypeEnum(orderMealType: Int) -> MealTypeEnum {
-        switch orderMealType {
-        case 1:
-            return .Kebab
-        case 2:
-            return .Soup
-        case 3:
-            return .Burger
-        case 4:
-            return .Pizza
-        case 5:
-            return .Steak
-        case 6:
-            return .Protein
-        case 7:
-            return .Salad
-        case 8:
-            return .Thai
-        default:
-            return .Kebab
-        }
     }
     
 }
