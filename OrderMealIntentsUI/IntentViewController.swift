@@ -36,7 +36,7 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
             return
         }
         
-        let meal = Meal(intent: intent)
+        let meals = IntentManager.shared.createMeals(intent: intent)
         
         for view in view.subviews {
             view.removeFromSuperview()
@@ -45,9 +45,9 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
         var desiredSize = CGSize.zero
         
         if interaction.intentHandlingStatus == .ready {
-            desiredSize = self.displayInvoice(meal)
+            desiredSize = self.displayInvoice(meals)
         } else if interaction.intentHandlingStatus == .success {
-            desiredSize = self.displayConfirm(meal)
+            desiredSize = self.displayConfirm()
         }
         
         
@@ -55,24 +55,22 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
         completion(true, parameters, desiredSize)
     }
     
-    private func displayInvoice(_ meal: Meal) -> CGSize{
-        self.invoiceView.priceLabel.text = "\(meal.price ?? 0)"
-        self.invoiceView.titleLabel.text = meal.name
-        self.invoiceView.imageView.image = UIImage(named: meal.mealType?.rawValue.lowercased() ?? "") ?? UIImage()
+    private func displayInvoice(_ meals: [Meal]) -> CGSize{
         
         let width = self.extensionContext?.hostedViewMaximumAllowedSize.width ?? 320
-        let frame = CGRect(origin: .zero, size: CGSize(width: width, height: 170))
+        let frame = CGRect(origin: .zero, size: CGSize(width: width, height: 60.0 * CGFloat(meals.count)))
         
         self.view.addSubview(self.invoiceView)
-        
+        self.invoiceView.items = meals
+        self.invoiceView.tableView.reloadData()
         self.invoiceView.frame = frame
         
         return frame.size
     }
     
-    private func displayConfirm(_ meal: Meal) -> CGSize {
+    private func displayConfirm() -> CGSize {
         self.confirmView.titleLabel.text = "ConfirmView.Ordered".localized
-        self.confirmView.imageView.image = UIImage(named: meal.mealType?.rawValue.lowercased() ?? "") ?? UIImage()
+        self.confirmView.imageView.image = UIImage(named: "kebab") ?? UIImage()
         
         let width = self.extensionContext?.hostedViewMaximumAllowedSize.width ?? 320
         let frame = CGRect(origin: .zero, size: CGSize(width: width, height: 170))

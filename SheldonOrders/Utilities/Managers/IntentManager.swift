@@ -32,6 +32,8 @@ class IntentManager {
     
     func createMealIntent(meals: [Meal]) -> OrderMealIntent {
         
+        let helper = MealTypeHelper()
+        
         let orderMealIntent = OrderMealIntent()
         
         var count = 0.0
@@ -39,6 +41,7 @@ class IntentManager {
         
         for meal in meals {
             orderMealIntent.meals?.append(meal.name ?? "")
+            orderMealIntent.type = OrderMealType(rawValue: helper.getOrderMealType(mealTypeEnum: meal.mealType!))!
             count += Double(meal.price ?? 0)
         }
         orderMealIntent.price = NSNumber(value: count)

@@ -8,18 +8,45 @@
 
 import UIKit
 
-class InvoiceView: UIView {
-
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var priceLabel: UILabel!
+class InvoiceView: UIView, TableViewNibRegistration {
     
+    var items = [Meal]()
+    
+    @IBOutlet weak var tableView: UITableView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.titleLabel.font = Fonts.InvoiceIntentView.Title
-        self.priceLabel.font = Fonts.InvoiceIntentView.Title
-        
-        self.titleLabel.textColor = Colors.InvoiceIntentView.Title
-        self.priceLabel.textColor = Colors.InvoiceIntentView.Price
+        self.tableView.dataSource = self
+        self.tableView.rowHeight = 50
+        self.registerTableViewNibs(nibName: Cells.OrderMealIntentUICell)
     }
+}
+
+extension InvoiceView: UITableViewDataSource {
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return items.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: Cells.OrderMealIntentUICell, for: indexPath) as? OrderMealIntentUICell else {
+            return UITableViewCell()
+        }
+        
+        let meal = items[indexPath.row]
+        
+        cell.titleLabel.text = meal.name
+        cell.mealImageView.image = UIImage(named: meal.mealType?.rawValue.lowercased() ?? "")
+        
+        return cell
+        
+    }
+    
+    
+    
+    
 }

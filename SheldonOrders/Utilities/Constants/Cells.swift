@@ -13,5 +13,6 @@ struct Cells {
     static let MealTypeCell = "MealTypeCell"
     static let SelectTypeCell = "SelectTypeCell"
     static let HistoryCell = "HistoryCell"
+    static let OrderMealIntentUICell = "OrderMealIntentUICell"
     
 }
