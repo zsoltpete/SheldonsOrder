@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  SheldonOrders
+
+  Created by Zsolt Pete on 2018. 12. 25..
+  Copyright © 2018. Zsolt Pete. All rights reserved.
+*/
+
+"ConfirmView.Ordered" = "Ordered";
+"Login.TitleLabel.Title" = "Sheldon's\nOrder";
+"Login.EmailLabel.Title" = "Email:";
+"Login.PasswordLabel.Title" = "Password:";
+"Login.LoginButton.Title" = "Login";
+"SelectTypeCell.OrderButton.Title" = "Order";
+"SelectTypeCell.OrderedButton.Title" = "Ordered";
+
+"Kebab.Option1.Name" = "Kis Döner";
+"Kebab.Option1.Description" = "";
+"Kebab.Option2.Name" = "Döner";
+"Kebab.Option2.Description" = "";
+"Kebab.Option3.Name" = "Nagy Döner";
+"Kebab.Option3.Description" = "";
+
+"Soup.Option1.Name" = "Hús leves";
+"Soup.Option1.Description" = "";
+"Soup.Option2.Name" = "Gulyás leves";
+"Soup.Option2.Description" = "";
+"Soup.Option3.Name" = "Gyümölcs leves";
+"Soup.Option3.Description" = "";
+
+"Burger.Option1.Name" = "Hamburger";
+"Burger.Option1.Description" = "";
+"Burger.Option2.Name" = "Sajt Burger";
+"Burger.Option2.Description" = "";
+"Burger.Option3.Name" = "Dupla Burger";
+"Burger.Option3.Description" = "";
+
+"Pizza.Option1.Name" = "Sonkás Pizza";
+"Pizza.Option1.Description" = "";
+"Pizza.Option2.Name" = "Szalámis Pizza";
+"Pizza.Option2.Description" = "";
+"Pizza.Option3.Name" = "Gombás Pizza";
+"Pizza.Option3.Description" = "";
+
+"Steak.Option1.Name" = "Kis Steak";
+"Steak.Option1.Description" = "";
+"Steak.Option2.Name" = "Nagy Steak";
+"Steak.Option2.Description" = "";
+"Steak.Option3.Name" = "Dupla Steak";
+"Steak.Option3.Description" = "";
+
+"Protein.Option1.Name" = "Biothech USA";
+"Protein.Option1.Description" = "";
+"Protein.Option2.Name" = "Scitech";
+"Protein.Option2.Description" = "";
+"Protein.Option3.Name" = "Kínai";
+"Protein.Option3.Description" = "";
+
+"Salad.Option1.Name" = "Saláta";
+"Salad.Option1.Description" = "";
+"Salad.Option2.Name" = "Nagy Saláta";
+"Salad.Option2.Description" = "";
+"Salad.Option3.Name" = "Kis Saláta";
+"Salad.Option3.Description" = "";
+
+"Thai.Option1.Name" = "Kínai";
+"Thai.Option1.Description" = "";
+"Thai.Option2.Name" = "Thai";
+"Thai.Option2.Description" = "";
+"Thai.Option3.Name" = "Arab";
+"Thai.Option3.Description" = "";

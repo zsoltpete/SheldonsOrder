@@ -84,8 +84,18 @@ extension Meal {
             return 1
         case .Soup:
             return 2
-        default:
-            return 0
+        case .Burger:
+            return 3
+        case .Pizza:
+            return 4
+        case .Steak:
+            return 5
+        case .Protein:
+            return 6
+        case .Salad:
+            return 7
+        case .Thai:
+            return 8
         }
     }
     
@@ -95,6 +105,18 @@ extension Meal {
             return .Kebab
         case 2:
             return .Soup
+        case 3:
+            return .Burger
+        case 4:
+            return .Pizza
+        case 5:
+            return .Steak
+        case 6:
+            return .Protein
+        case 7:
+            return .Salad
+        case 8:
+            return .Thai
         default:
             return .Kebab
         }

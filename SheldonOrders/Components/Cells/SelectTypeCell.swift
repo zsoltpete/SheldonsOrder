@@ -6,6 +6,7 @@
 //  Copyright © 2018. Zsolt Pete. All rights reserved.
 //
 
+import CYLocalization
 import UIKit
 
 protocol SelectTypeCellBindable {
@@ -48,7 +49,7 @@ class SelectTypeCell: UITableViewCell {
         self.addShadow()
         self.addColors()
         self.addFonts()
-        self.orderButton.setTitle("Order", for: .normal)
+        self.orderButton.setTitle("SelectTypeCell.OrderButton.Title".localized, for: .normal)
     }
     
     func addShadow(){
@@ -103,10 +104,10 @@ class SelectTypeCell: UITableViewCell {
         self.isOrder = !self.isOrder
         self.orderCompletition?(self.isOrder)
         if isOrder {
-            self.orderButton.setTitle("Ordered", for: .normal)
+            self.orderButton.setTitle("SelectTypeCell.OrderedButton.Title".localized, for: .normal)
             self.orderButton.setTitleColor(Colors.TypeSelectionCell.OrderedButton, for: .normal)
         } else {
-            self.orderButton.setTitle("Order", for: .normal)
+            self.orderButton.setTitle("SelectTypeCell.OrderButton.Title".localized, for: .normal)
             self.orderButton.setTitleColor(Colors.TypeSelectionCell.OrderButton, for: .normal)
         }
     }

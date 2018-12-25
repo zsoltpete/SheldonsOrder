@@ -6,6 +6,7 @@
 //  Copyright © 2018. Zsolt Pete. All rights reserved.
 //
 
+import CYLocalization
 import UIKit
 import PixelPerfectSwift
 
@@ -45,10 +46,10 @@ class LoginViewController: UIViewController {
     }
     
     func addLocalization(){
-        self.mainTitleLabel.text = "Sheldon's\nOrder"
-        self.emailLabel.text = "Email address:"
-        self.passwordLabel.text = "Password:"
-        self.loginButton.setTitle("Login", for: .normal)
+        self.mainTitleLabel.text = "Login.TitleLabel.Title".localized
+        self.emailLabel.text = "Login.EmailLabel.Title".localized
+        self.passwordLabel.text = "Login.PasswordLabel.Title".localized
+        self.loginButton.setTitle("Login.LoginButton.Title".localized, for: .normal)
     }
     
     func addFonts(){
