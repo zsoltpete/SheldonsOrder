@@ -6,6 +6,7 @@
 //  Copyright © 2018. Zsolt Pete. All rights reserved.
 //
 
+import Intents
 import IntentsUI
 
 // As an example, this extension's Info.plist has been configured to handle interactions for INSendMessageIntent.
@@ -17,6 +18,8 @@ import IntentsUI
 
 class IntentViewController: UIViewController, INUIHostedViewControlling {
     
+    @IBOutlet var invoiceView: InvoiceView!
+    @IBOutlet var confirmView: ConfirmView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -26,8 +29,58 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
     
     // Prepare your view controller for the interaction to handle.
     func configureView(for parameters: Set<INParameter>, of interaction: INInteraction, interactiveBehavior: INUIInteractiveBehavior, context: INUIHostedViewContext, completion: @escaping (Bool, Set<INParameter>, CGSize) -> Void) {
-        // Do configuration here, including preparing views and calculating a desired size for presentation.
-        completion(true, parameters, self.desiredSize)
+        
+        guard let intent = interaction.intent as? OrderMealIntent else {
+            completion(false, Set(), .zero)
+            return
+        }
+        
+        let meal = Meal(intent: intent)
+        
+        for view in view.subviews {
+            view.removeFromSuperview()
+        }
+        
+        var desiredSize = CGSize.zero
+        
+        if interaction.intentHandlingStatus == .ready {
+            desiredSize = self.displayInvoice(meal)
+        } else if interaction.intentHandlingStatus == .success {
+            desiredSize = self.displayConfirm(meal)
+        }
+        
+        
+        
+        completion(true, parameters, desiredSize)
+    }
+    
+    private func displayInvoice(_ meal: Meal) -> CGSize{
+        self.invoiceView.priceLabel.text = "\(meal.price ?? 0)"
+        self.invoiceView.titleLabel.text = meal.name
+        self.invoiceView.imageView.image = UIImage(named: meal.mealType?.rawValue.lowercased() ?? "") ?? UIImage()
+        
+        let width = self.extensionContext?.hostedViewMaximumAllowedSize.width ?? 320
+        let frame = CGRect(origin: .zero, size: CGSize(width: width, height: 170))
+        
+        self.view.addSubview(self.invoiceView)
+        
+        self.invoiceView.frame = frame
+        
+        return frame.size
+    }
+    
+    private func displayConfirm(_ meal: Meal) -> CGSize {
+        self.confirmView.titleLabel.text = "Megrendelve"
+        self.confirmView.imageView.image = UIImage(named: meal.mealType?.rawValue.lowercased() ?? "") ?? UIImage()
+        
+        let width = self.extensionContext?.hostedViewMaximumAllowedSize.width ?? 320
+        let frame = CGRect(origin: .zero, size: CGSize(width: width, height: 170))
+        
+        self.view.addSubview(self.confirmView)
+        
+        self.confirmView.frame = frame
+        
+        return frame.size
     }
     
     var desiredSize: CGSize {

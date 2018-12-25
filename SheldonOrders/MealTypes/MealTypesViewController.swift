@@ -40,6 +40,13 @@ class MealTypesViewController: UIViewController, CollectionViewNibRegistration {
         self.navigationController?.pushViewController(mealSelectionViewController, animated: true)
         
     }
+    
+    @IBAction func showHistory(_ sender: Any) {
+        guard let historyViewController = self.storyboard?.instantiateViewController(withIdentifier: StoryboardIds.HistoryViewController) else {
+            return
+        }
+        self.navigationController?.pushViewController(historyViewController, animated: true)
+    }
 
 }
 

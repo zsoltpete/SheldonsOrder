@@ -19,13 +19,9 @@ class OrderManager {
     }
     
     func add(meal: Meal) {
-        self.items = self.getAllOrderedMeals()
         self.items.append(meal)
         
-        if let userDefaults = UserDefaults(suiteName: "group.eu.codeyard.SheldonOrders.Shared") {
-            let mealsData = try! JSONEncoder().encode(self.items)
-            userDefaults.set(mealsData, forKey: "Meals")
-        }
+        
     }
     
     func getAllOrderedMeals() -> [Meal] {
@@ -49,6 +45,12 @@ class OrderManager {
     
     func completeOrder(){
         if !self.items.isEmpty {
+            var orderedItems = self.getAllOrderedMeals()
+            orderedItems.append(contentsOf: self.items)
+            if let userDefaults = UserDefaults(suiteName: "group.eu.codeyard.SheldonOrders.Shared") {
+                let mealsData = try! JSONEncoder().encode(orderedItems)
+                userDefaults.set(mealsData, forKey: "Meals")
+            }
             IntentManager.shared.donateMealIntent(meal: self.items[0])
         }
         self.items = []

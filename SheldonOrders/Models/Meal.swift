@@ -23,6 +23,12 @@ class Meal: Codable {
         self.mealType = mealType
     }
     
+    init(intent: OrderMealIntent) {
+        self.name = intent.meal
+        self.price = CGFloat(intent.price?.floatValue ?? 0)
+        self.mealType = self.getMealTypeEnum(orderMealType: intent.type.rawValue)
+    }
+    
 }
 
 extension Meal: SelectTypeCellBindable {
@@ -45,7 +51,7 @@ extension Meal: HistoryCellBindable {
     
     var pimage: UIImage {
         let imageName = (self.mealType?.rawValue ?? "").lowercased()
-        return UIImage(named: imageName)!
+        return UIImage(named: imageName) ?? UIImage()
     }
     
 }
@@ -65,10 +71,33 @@ extension Meal {
         
         orderMealIntent.price = NSNumber(value: Double(self.price ?? 0))
         orderMealIntent.meal = self.name ?? ""
+        orderMealIntent.type = OrderMealType(rawValue: self.getOrderMealType(mealTypeEnum: self.mealType!))!
         orderMealIntent.setImage(INImage(named: (self.mealType?.rawValue ?? "").lowercased()), forParameterNamed: \.meal)
         
         return orderMealIntent
         
+    }
+    
+    private func getOrderMealType(mealTypeEnum: MealTypeEnum) -> Int {
+        switch mealTypeEnum {
+        case .Kebab:
+            return 1
+        case .Soup:
+            return 2
+        default:
+            return 0
+        }
+    }
+    
+    private func getMealTypeEnum(orderMealType: Int) -> MealTypeEnum {
+        switch orderMealType {
+        case 1:
+            return .Kebab
+        case 2:
+            return .Soup
+        default:
+            return .Kebab
+        }
     }
     
 }

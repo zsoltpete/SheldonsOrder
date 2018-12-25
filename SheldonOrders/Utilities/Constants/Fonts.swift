@@ -37,4 +37,13 @@ struct Fonts {
         static let Price = UIFont(name: Fonts.Names.VerdanaBold, size: 15.0)
     }
     
+    struct InvoiceIntentView {
+        static let Title = TypeSelectionCell.Title
+        static let Price = TypeSelectionCell.Price
+    }
+    
+    struct ConfirmIntentView {
+        static let Title = TypeSelectionCell.Title
+    }
+    
 }

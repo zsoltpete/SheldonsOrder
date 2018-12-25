@@ -23,23 +23,23 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>Morning</string>
+					<string>kebab</string>
 					<key>INEnumValueDisplayNameID</key>
 					<string>3lPzRL</string>
 					<key>INEnumValueIndex</key>
 					<integer>1</integer>
 					<key>INEnumValueName</key>
-					<string>morning</string>
+					<string>kebab</string>
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>Lunch</string>
+					<string>soup</string>
 					<key>INEnumValueDisplayNameID</key>
 					<string>KFlKEC</string>
 					<key>INEnumValueIndex</key>
 					<integer>2</integer>
 					<key>INEnumValueName</key>
-					<string>lunch</string>
+					<string>soup</string>
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
@@ -74,7 +74,7 @@
 			<key>INIntentDescriptionID</key>
 			<string>mFsuZh</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>7</integer>
+			<integer>11</integer>
 			<key>INIntentName</key>
 			<string>OrderMeal</string>
 			<key>INIntentParameterCombinations</key>
@@ -82,7 +82,7 @@
 				<key>meal</key>
 				<dict>
 					<key>INIntentParameterCombinationIsPrimary</key>
-					<false/>
+					<true/>
 					<key>INIntentParameterCombinationSubtitle</key>
 					<string></string>
 					<key>INIntentParameterCombinationSubtitleID</key>
@@ -97,7 +97,7 @@
 				<key>meal,price</key>
 				<dict>
 					<key>INIntentParameterCombinationIsPrimary</key>
-					<true/>
+					<false/>
 					<key>INIntentParameterCombinationSubtitle</key>
 					<string></string>
 					<key>INIntentParameterCombinationSubtitleID</key>
@@ -108,6 +108,21 @@
 					<string>Order ${meal} for ${price}.</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>jYFKJv</string>
+				</dict>
+				<key>type,meal,price</key>
+				<dict>
+					<key>INIntentParameterCombinationIsPrimary</key>
+					<false/>
+					<key>INIntentParameterCombinationSubtitle</key>
+					<string></string>
+					<key>INIntentParameterCombinationSubtitleID</key>
+					<string>4gejoJ</string>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Order ${meal} for ${price}. It's a delicious ${type}.</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>nhiQ1U</string>
 				</dict>
 			</dict>
 			<key>INIntentParameters</key>
@@ -135,6 +150,20 @@
 					<integer>4</integer>
 					<key>INIntentParameterType</key>
 					<string>Decimal</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>3</integer>
+					<key>INIntentParameterEnumType</key>
+					<string>Type</string>
+					<key>INIntentParameterName</key>
+					<string>type</string>
+					<key>INIntentParameterSupportsMultipleValues</key>
+					<false/>
+					<key>INIntentParameterTag</key>
+					<integer>11</integer>
+					<key>INIntentParameterType</key>
+					<string>Integer</string>
 				</dict>
 			</array>
 			<key>INIntentResponse</key>

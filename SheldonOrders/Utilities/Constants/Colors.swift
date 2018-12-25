@@ -31,6 +31,15 @@ struct Colors {
         static let Background = UIColor.white
     }
     
+    struct InvoiceIntentView {
+        static let Title = UIColor.black
+        static let Price = TypeSelectionCell.Price
+    }
+    
+    struct ConfirmIntentView {
+        static let Title = UIColor.black
+    }
+    
     struct MealTypeCell {
         static let Background = UIColor.white
     }
