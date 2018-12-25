@@ -1,16 +1,21 @@
 PODS:
+  - CYLocalization (0.4.0)
   - PixelPerfectSwift (0.1.1)
 
 DEPENDENCIES:
+  - CYLocalization
   - PixelPerfectSwift
 
 SPEC REPOS:
+  "git@bitbucket.org:team-codeyard/podyard.git":
+    - CYLocalization
   https://github.com/cocoapods/specs.git:
     - PixelPerfectSwift
 
 SPEC CHECKSUMS:
+  CYLocalization: 4017c66db421f5047d22bce366d4a7feefc5d8e4
   PixelPerfectSwift: 7350fe09dd1ec2643074f5920ef4ca32a17a8429
 
-PODFILE CHECKSUM: 77b62dbe48348454efee98dc904337f6ac53c787
+PODFILE CHECKSUM: 4ddc6bdfa7a6918be9a36a01d1ed77dfd9aa7c52
 
 COCOAPODS: 1.5.3

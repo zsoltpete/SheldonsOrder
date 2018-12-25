@@ -8,6 +8,7 @@
 
 import Intents
 import IntentsUI
+import CYLocalization
 
 // As an example, this extension's Info.plist has been configured to handle interactions for INSendMessageIntent.
 // You will want to replace this or add other intents as appropriate.
@@ -70,7 +71,7 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
     }
     
     private func displayConfirm(_ meal: Meal) -> CGSize {
-        self.confirmView.titleLabel.text = "Megrendelve"
+        self.confirmView.titleLabel.text = "ConfirmView.Ordered".localized
         self.confirmView.imageView.image = UIImage(named: meal.mealType?.rawValue.lowercased() ?? "") ?? UIImage()
         
         let width = self.extensionContext?.hostedViewMaximumAllowedSize.width ?? 320

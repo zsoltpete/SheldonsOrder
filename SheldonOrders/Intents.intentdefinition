@@ -43,13 +43,63 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>Dinner</string>
+					<string>burger</string>
 					<key>INEnumValueDisplayNameID</key>
 					<string>UBH9r9</string>
 					<key>INEnumValueIndex</key>
 					<integer>3</integer>
 					<key>INEnumValueName</key>
-					<string>dinner</string>
+					<string>burger</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>pizza</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>SFtLym</string>
+					<key>INEnumValueIndex</key>
+					<integer>4</integer>
+					<key>INEnumValueName</key>
+					<string>pizza</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>steak</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>lgk8U2</string>
+					<key>INEnumValueIndex</key>
+					<integer>5</integer>
+					<key>INEnumValueName</key>
+					<string>steak</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>protein</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>i3KEjB</string>
+					<key>INEnumValueIndex</key>
+					<integer>6</integer>
+					<key>INEnumValueName</key>
+					<string>protein</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>salad</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>KSA931</string>
+					<key>INEnumValueIndex</key>
+					<integer>7</integer>
+					<key>INEnumValueName</key>
+					<string>salad</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>thai</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>LQBrYY</string>
+					<key>INEnumValueIndex</key>
+					<integer>8</integer>
+					<key>INEnumValueName</key>
+					<string>thai</string>
 				</dict>
 			</array>
 		</dict>

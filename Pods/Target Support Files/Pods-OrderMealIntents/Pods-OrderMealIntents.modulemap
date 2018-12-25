@@ -1,0 +1,6 @@
+framework module Pods_OrderMealIntents {
+  umbrella header "Pods-OrderMealIntents-umbrella.h"
+
+  export *
+  module * { export * }
+}

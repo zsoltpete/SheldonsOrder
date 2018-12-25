@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D05BD2E7439CE4A44BC47696289B3DDF"
-               BuildableName = "Pods_SheldonOrders.framework"
-               BlueprintName = "Pods-SheldonOrders"
+               BlueprintIdentifier = "90F5F64A9CAF582A1919306FD4D7FAE2"
+               BuildableName = "Pods_OrderMealIntents.framework"
+               BlueprintName = "Pods-OrderMealIntents"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D05BD2E7439CE4A44BC47696289B3DDF"
-            BuildableName = "Pods_SheldonOrders.framework"
-            BlueprintName = "Pods-SheldonOrders"
+            BlueprintIdentifier = "90F5F64A9CAF582A1919306FD4D7FAE2"
+            BuildableName = "Pods_OrderMealIntents.framework"
+            BlueprintName = "Pods-OrderMealIntents"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

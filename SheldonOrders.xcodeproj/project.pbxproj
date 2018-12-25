@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47B664EEFD5F708AEDD04054 /* Pods_OrderMealIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C61844050A75E1357EA930 /* Pods_OrderMealIntents.framework */; };
 		540E012F21B867A50033F220 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E012E21B867A50033F220 /* Colors.swift */; };
 		540E013121B867CE0033F220 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E013021B867CE0033F220 /* Fonts.swift */; };
 		540E013321B86C230033F220 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E013221B86C230033F220 /* LoginViewController.swift */; };
@@ -71,7 +72,11 @@
 		54F046EE21D257D2007FC758 /* MealTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433285721B9AD3200965443 /* MealTypeCell.swift */; };
 		54F046EF21D257D6007FC758 /* UIView+CornersWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E013F21B87C390033F220 /* UIView+CornersWithShadow.swift */; };
 		54F046F121D25DF5007FC758 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F046F021D25DF5007FC758 /* ConfirmView.swift */; };
+		54F046F621D26F26007FC758 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54F046FA21D26F26007FC758 /* Localizable.strings */; };
+		54F046F721D26F26007FC758 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54F046FA21D26F26007FC758 /* Localizable.strings */; };
+		54F046F821D26F26007FC758 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54F046FA21D26F26007FC758 /* Localizable.strings */; };
 		744F26A8B9B211D331C047BF /* Pods_SheldonOrders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C3B8B4A1DF9A83D4912C54 /* Pods_SheldonOrders.framework */; };
+		9087F06751FD0149BC804F5E /* Pods_OrderMealIntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B078E8BF62F1AA9315C30A9 /* Pods_OrderMealIntentsUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +114,7 @@
 /* Begin PBXFileReference section */
 		11C3B8B4A1DF9A83D4912C54 /* Pods_SheldonOrders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SheldonOrders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		203995BA0A3A8908D2EC8373 /* Pods-SheldonOrders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SheldonOrders.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SheldonOrders/Pods-SheldonOrders.debug.xcconfig"; sourceTree = "<group>"; };
+		4CF54C7976D2C75FC7938DAD /* Pods-OrderMealIntents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderMealIntents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrderMealIntents/Pods-OrderMealIntents.debug.xcconfig"; sourceTree = "<group>"; };
 		540E012E21B867A50033F220 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		540E013021B867CE0033F220 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		540E013221B86C230033F220 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -154,7 +160,14 @@
 		54F046DF21D1254C007FC758 /* HistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
 		54F046E321D25341007FC758 /* InvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceView.swift; sourceTree = "<group>"; };
 		54F046F021D25DF5007FC758 /* ConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
+		54F046F921D26F26007FC758 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		54F046FB21D26F3A007FC758 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		89A07229651F75E8F28B1396 /* Pods-OrderMealIntentsUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderMealIntentsUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrderMealIntentsUI/Pods-OrderMealIntentsUI.release.xcconfig"; sourceTree = "<group>"; };
+		89C61844050A75E1357EA930 /* Pods_OrderMealIntents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrderMealIntents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B078E8BF62F1AA9315C30A9 /* Pods_OrderMealIntentsUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrderMealIntentsUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7244B8D2C2A73EBED748E2 /* Pods-OrderMealIntents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderMealIntents.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrderMealIntents/Pods-OrderMealIntents.release.xcconfig"; sourceTree = "<group>"; };
 		C9C7041A50A0F3ED467495C6 /* Pods-SheldonOrders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SheldonOrders.release.xcconfig"; path = "Pods/Target Support Files/Pods-SheldonOrders/Pods-SheldonOrders.release.xcconfig"; sourceTree = "<group>"; };
+		DE37FBA86AFB77AED32FBC61 /* Pods-OrderMealIntentsUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderMealIntentsUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrderMealIntentsUI/Pods-OrderMealIntentsUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B664EEFD5F708AEDD04054 /* Pods_OrderMealIntents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54F046B621D04147007FC758 /* IntentsUI.framework in Frameworks */,
+				9087F06751FD0149BC804F5E /* Pods_OrderMealIntentsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +204,10 @@
 			children = (
 				203995BA0A3A8908D2EC8373 /* Pods-SheldonOrders.debug.xcconfig */,
 				C9C7041A50A0F3ED467495C6 /* Pods-SheldonOrders.release.xcconfig */,
+				DE37FBA86AFB77AED32FBC61 /* Pods-OrderMealIntentsUI.debug.xcconfig */,
+				89A07229651F75E8F28B1396 /* Pods-OrderMealIntentsUI.release.xcconfig */,
+				4CF54C7976D2C75FC7938DAD /* Pods-OrderMealIntents.debug.xcconfig */,
+				BB7244B8D2C2A73EBED748E2 /* Pods-OrderMealIntents.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -277,13 +296,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		5433286721B9D74100965443 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
 		5433286A21B9D8BB00965443 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
@@ -338,7 +350,6 @@
 		5438943821A49C5E005435C4 /* SheldonOrders */ = {
 			isa = PBXGroup;
 			children = (
-				5433286721B9D74100965443 /* Protocols */,
 				5433286621B9D73600965443 /* Models */,
 				540E013E21B87C2B0033F220 /* Extensions */,
 				540E013421B86CCE0033F220 /* Components */,
@@ -354,6 +365,7 @@
 				5438944521A49C5F005435C4 /* Info.plist */,
 				54F046A321D0354D007FC758 /* Intents.intentdefinition */,
 				54F046DA21D1242E007FC758 /* SheldonOrders.entitlements */,
+				54F046FA21D26F26007FC758 /* Localizable.strings */,
 			);
 			path = SheldonOrders;
 			sourceTree = "<group>";
@@ -410,6 +422,8 @@
 			children = (
 				11C3B8B4A1DF9A83D4912C54 /* Pods_SheldonOrders.framework */,
 				54F046B521D04147007FC758 /* IntentsUI.framework */,
+				8B078E8BF62F1AA9315C30A9 /* Pods_OrderMealIntentsUI.framework */,
+				89C61844050A75E1357EA930 /* Pods_OrderMealIntents.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -443,6 +457,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54F046C721D04147007FC758 /* Build configuration list for PBXNativeTarget "OrderMealIntents" */;
 			buildPhases = (
+				403BC481A1B39E92841DDE27 /* [CP] Check Pods Manifest.lock */,
 				54F046A721D04146007FC758 /* Sources */,
 				54F046A821D04146007FC758 /* Frameworks */,
 				54F046A921D04146007FC758 /* Resources */,
@@ -460,6 +475,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54F046C421D04147007FC758 /* Build configuration list for PBXNativeTarget "OrderMealIntentsUI" */;
 			buildPhases = (
+				AC566C4E4F577B2544BEBDE9 /* [CP] Check Pods Manifest.lock */,
 				54F046B021D04147007FC758 /* Sources */,
 				54F046B121D04147007FC758 /* Frameworks */,
 				54F046B221D04147007FC758 /* Resources */,
@@ -511,6 +527,7 @@
 			knownRegions = (
 				en,
 				Base,
+				hu,
 			);
 			mainGroup = 5438942D21A49C5D005435C4;
 			productRefGroup = 5438943721A49C5E005435C4 /* Products */;
@@ -532,6 +549,7 @@
 				5438944421A49C5F005435C4 /* LaunchScreen.storyboard in Resources */,
 				5438944121A49C5F005435C4 /* Assets.xcassets in Resources */,
 				5433285A21B9AD3200965443 /* MealTypeCell.xib in Resources */,
+				54F046F621D26F26007FC758 /* Localizable.strings in Resources */,
 				5438943F21A49C5E005435C4 /* Main.storyboard in Resources */,
 				54F046E121D1254C007FC758 /* HistoryCell.xib in Resources */,
 				54F0469921CFFF07007FC758 /* SelectTypeCell.xib in Resources */,
@@ -542,6 +560,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F046F721D26F26007FC758 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +569,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54F046E621D2576D007FC758 /* Assets.xcassets in Resources */,
+				54F046F821D26F26007FC758 /* Localizable.strings in Resources */,
 				54F046BC21D04147007FC758 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,6 +599,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		403BC481A1B39E92841DDE27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrderMealIntents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		726FFC3016BF891BE1CD9535 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -588,17 +630,41 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SheldonOrders/Pods-SheldonOrders-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CYLocalization/CYLocalization.framework",
 				"${BUILT_PRODUCTS_DIR}/PixelPerfectSwift/PixelPerfectSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLocalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PixelPerfectSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SheldonOrders/Pods-SheldonOrders-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC566C4E4F577B2544BEBDE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrderMealIntentsUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -718,6 +784,15 @@
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
+		54F046FA21D26F26007FC758 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F046F921D26F26007FC758 /* en */,
+				54F046FB21D26F3A007FC758 /* hu */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -725,6 +800,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -786,6 +862,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -883,6 +960,7 @@
 		};
 		54F046C521D04147007FC758 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE37FBA86AFB77AED32FBC61 /* Pods-OrderMealIntentsUI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AFEL4SQNP4;
@@ -902,6 +980,7 @@
 		};
 		54F046C621D04147007FC758 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A07229651F75E8F28B1396 /* Pods-OrderMealIntentsUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AFEL4SQNP4;
@@ -921,6 +1000,7 @@
 		};
 		54F046C821D04147007FC758 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF54C7976D2C75FC7938DAD /* Pods-OrderMealIntents.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = OrderMealIntents/OrderMealIntents.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -941,6 +1021,7 @@
 		};
 		54F046C921D04147007FC758 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7244B8D2C2A73EBED748E2 /* Pods-OrderMealIntents.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = OrderMealIntents/OrderMealIntents.entitlements;
 				CODE_SIGN_STYLE = Automatic;

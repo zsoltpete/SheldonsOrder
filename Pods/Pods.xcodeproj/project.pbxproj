@@ -7,20 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15343D14CFCB9F6799EF291735F1D117 /* PixelPerfectSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C44CEE53A871F400C30FE434293BC /* PixelPerfectSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06D1E570ADE989C6812D1B3B8375593B /* Pods-OrderMealIntentsUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE794DB4B9F9BC8D034BC1690C3512E9 /* Pods-OrderMealIntentsUI-dummy.m */; };
+		14D941DD4A03A58C692502F6C8AC422A /* Pods-OrderMealIntentsUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 453E333A2EFCBD3761CF2310E56FE26C /* Pods-OrderMealIntentsUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15343D14CFCB9F6799EF291735F1D117 /* PixelPerfectSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE76ED3A0DC703A6C7DEF6B427FC6FD /* PixelPerfectSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29983E32C4D301A5A9FE412EDDC8ED00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		2D1980864B638845FB5349577008C784 /* Pods-SheldonOrders-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C0AB77CBDD78B71189AEEBC0851745 /* Pods-SheldonOrders-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550F10B8D84D55FB06A09F80CE2EA386 /* Numbers+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7B8B6F732CD2E463AF6214C4EBD80 /* Numbers+Scale.swift */; };
+		2DA20AF4769ECB01E508F3C98E435520 /* Pods-SheldonOrders-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCFF4EBD5D0CBF2365CEA39C3D2B37B /* Pods-SheldonOrders-dummy.m */; };
+		4207F98A667A042DF00101CC0E63FF3C /* String+Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F5E7D7ED165607FFCF41AD7E491D9 /* String+Locale.swift */; };
+		4ADC6F99F759818544F27DEFC57CE5A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		550F10B8D84D55FB06A09F80CE2EA386 /* Numbers+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = E588ECAF74ED5540E30A8754C4A95A69 /* Numbers+Scale.swift */; };
 		6BD76B8E19CBD04400FEA8D386501A34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		7C00A3E23BC7F5E4D507D69C8C7764E3 /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C507012E3D1BB0CA972AAFEEF679D62 /* Devices.swift */; };
-		952ED5787B087F1E130315FA1A72158F /* Pods-SheldonOrders-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17615E3D021E64DB2B70B7389AAB57BD /* Pods-SheldonOrders-dummy.m */; };
-		B610F15A7085E904249EDEE33138FC65 /* PixelPerfectSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238D5B5452BFA7F211D466C0ED35081 /* PixelPerfectSwift-dummy.m */; };
-		D1D00AD1B19D5C73B9DE65958641EE1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		D5CB4185D5FC97CD8A87DD0C5BD5B653 /* ScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADA8CE306EE22EC6D3A61B454A5D08D /* ScaleFactor.swift */; };
+		7C00A3E23BC7F5E4D507D69C8C7764E3 /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D2E7DFF57B7B8E1574EAD15B32391 /* Devices.swift */; };
+		86D9F6030B0D253BEF9BFFE4629408D9 /* UILabel+Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEDABEF742DBF704C0F41A2747E28DB /* UILabel+Locale.swift */; };
+		8F5C34C74C11C657FD1508A3993A2413 /* Pods-SheldonOrders-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4812BCE7CD08818AB1A46632E9273234 /* Pods-SheldonOrders-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B18B4BF20FAA93F4B49A3E4874480E75 /* Pods-OrderMealIntents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DA4EE550136CC7B8D77264B066EB7F /* Pods-OrderMealIntents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B610F15A7085E904249EDEE33138FC65 /* PixelPerfectSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6CF8A8A681380412C3AD181B7B6F7 /* PixelPerfectSwift-dummy.m */; };
+		B96E453632C7D2BA7C7CB189A3B93DA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		D1010A71B9CD4CF3FF34B3A94ECAFAF7 /* Pods-OrderMealIntents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F51CF9C92DACD26336F7525E858FA4 /* Pods-OrderMealIntents-dummy.m */; };
+		D5CB4185D5FC97CD8A87DD0C5BD5B653 /* ScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A0F06AF19E52967E9AAC48EDF6C6FA /* ScaleFactor.swift */; };
+		E455270F2F78E096D6AE455656FFBB32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		F85AC8E67678C69C31A539AD7F9D5E10 /* CYLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 418F25819A73E2112B80FE65F18DAA72 /* CYLocalization-dummy.m */; };
+		FC92235BE1D14790832E33CD5737669A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		FD400A523C00942785F9FD9BE4DE15D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		FDABCC7A33AB13855118B1785AE865EB /* CYLocalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C7DA40142980508C0DC9089442EABBC /* CYLocalization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		56077AD1E84F9AEEEDFF01270DD48939 /* PBXContainerItemProxy */ = {
+		4D594C3521A7B81CD6159397746E65DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797DFC42143AD5E14998F0570C754BB7;
+			remoteInfo = CYLocalization;
+		};
+		8735F509BEAB716CCDBEFF550D3D3F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B810B43C6530DC7F8962BA1A416B0A48;
+			remoteInfo = PixelPerfectSwift;
+		};
+		91D72324EB2357EE256392AB845CF5AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797DFC42143AD5E14998F0570C754BB7;
+			remoteInfo = CYLocalization;
+		};
+		A69D0B7D0A70756A4125C68B0FBECA62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797DFC42143AD5E14998F0570C754BB7;
+			remoteInfo = CYLocalization;
+		};
+		AF8C1225C07E56372C7282D990581CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B810B43C6530DC7F8962BA1A416B0A48;
+			remoteInfo = PixelPerfectSwift;
+		};
+		BCF5AD38A27A28C135FE82F7DCA5B891 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -30,33 +77,78 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C9052892F8704DDBA340EBB0B39BA4 /* Pods-SheldonOrders-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SheldonOrders-acknowledgements.markdown"; sourceTree = "<group>"; };
-		03C0AB77CBDD78B71189AEEBC0851745 /* Pods-SheldonOrders-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SheldonOrders-umbrella.h"; sourceTree = "<group>"; };
-		14D1330B9D1FDC11ABCB30FB03150058 /* PixelPerfectSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PixelPerfectSwift.framework; path = PixelPerfectSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17615E3D021E64DB2B70B7389AAB57BD /* Pods-SheldonOrders-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SheldonOrders-dummy.m"; sourceTree = "<group>"; };
-		210E19F0EBA3D5EF0AD2898DCB73B92B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C507012E3D1BB0CA972AAFEEF679D62 /* Devices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Devices.swift; path = PixelPerfectSwift/Sources/Devices.swift; sourceTree = "<group>"; };
-		3238D5B5452BFA7F211D466C0ED35081 /* PixelPerfectSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PixelPerfectSwift-dummy.m"; sourceTree = "<group>"; };
-		4C5660F297C40FF07F3801650D04BBE7 /* PixelPerfectSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PixelPerfectSwift-prefix.pch"; sourceTree = "<group>"; };
-		670E7FA3C233B265BEAC399E93EB8D8F /* Pods-SheldonOrders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SheldonOrders.release.xcconfig"; sourceTree = "<group>"; };
-		815913D8C97732787C810D9F171261C8 /* Pods_SheldonOrders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SheldonOrders.framework; path = "Pods-SheldonOrders.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E8891B05CA796B1B8AD101DCEF66FF /* CYLocalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CYLocalization.modulemap; sourceTree = "<group>"; };
+		180E2E69273306D775BF907772338466 /* Pods-OrderMealIntents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderMealIntents.release.xcconfig"; sourceTree = "<group>"; };
+		241F5E7D7ED165607FFCF41AD7E491D9 /* String+Locale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Locale.swift"; path = "Classes/String+Locale.swift"; sourceTree = "<group>"; };
+		29DA4EE550136CC7B8D77264B066EB7F /* Pods-OrderMealIntents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrderMealIntents-umbrella.h"; sourceTree = "<group>"; };
+		40040EC1B7857C81287224A58594F508 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418F25819A73E2112B80FE65F18DAA72 /* CYLocalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYLocalization-dummy.m"; sourceTree = "<group>"; };
+		453E333A2EFCBD3761CF2310E56FE26C /* Pods-OrderMealIntentsUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrderMealIntentsUI-umbrella.h"; sourceTree = "<group>"; };
+		462D5E4A266E7BBF47EBC83B223FF3E1 /* Pods-OrderMealIntents-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrderMealIntents-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4812BCE7CD08818AB1A46632E9273234 /* Pods-SheldonOrders-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SheldonOrders-umbrella.h"; sourceTree = "<group>"; };
+		489AB9985CC249DBAA9A0EA2705A61AC /* Pods_OrderMealIntentsUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OrderMealIntentsUI.framework; path = "Pods-OrderMealIntentsUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		531D2E7DFF57B7B8E1574EAD15B32391 /* Devices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Devices.swift; path = PixelPerfectSwift/Sources/Devices.swift; sourceTree = "<group>"; };
+		5A757FBB3BD987C2C6F9287D6E6722EC /* CYLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CYLocalization.framework; path = CYLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D0EBAE5068C1D7F2B872C9AD139557 /* Pods-OrderMealIntents-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrderMealIntents-resources.sh"; sourceTree = "<group>"; };
+		66A9A0166D5CF5DD9B61591891FA920A /* Pods-OrderMealIntentsUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderMealIntentsUI.release.xcconfig"; sourceTree = "<group>"; };
+		7483D5EEED45008438F35B435806262D /* Pods-SheldonOrders-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SheldonOrders-resources.sh"; sourceTree = "<group>"; };
+		77271228295F08AA3FBE3F4BA0F0361E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A4C17477C4359888C535C3D7EEAC97 /* Pods-SheldonOrders-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SheldonOrders-frameworks.sh"; sourceTree = "<group>"; };
+		7B261654463EE6CD30B3D19AF631730A /* Pods-SheldonOrders-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SheldonOrders-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C83E4A04B2B7705D3D1C3C3157EE3F6 /* Pods-OrderMealIntents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderMealIntents.debug.xcconfig"; sourceTree = "<group>"; };
+		7FB24D610B195CD7848005696341D934 /* Pods-SheldonOrders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SheldonOrders.debug.xcconfig"; sourceTree = "<group>"; };
+		8296D7A2C6DC2AE7C9994D0495D56D65 /* Pods-OrderMealIntentsUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderMealIntentsUI.debug.xcconfig"; sourceTree = "<group>"; };
+		8BA7B3BB04916F8E3B60E71C21BBA4F6 /* Pods-OrderMealIntentsUI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrderMealIntentsUI-resources.sh"; sourceTree = "<group>"; };
+		8C7DA40142980508C0DC9089442EABBC /* CYLocalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLocalization-umbrella.h"; sourceTree = "<group>"; };
+		8DAF11BE652EE334D82A1D95E283AE96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE76ED3A0DC703A6C7DEF6B427FC6FD /* PixelPerfectSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PixelPerfectSwift-umbrella.h"; sourceTree = "<group>"; };
+		9052CA319D2A65ACECFA652EBF47138E /* Pods-OrderMealIntents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OrderMealIntents.modulemap"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97D661AF6989BBAB8C3C14D88AD26BE3 /* Pods-SheldonOrders-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SheldonOrders-resources.sh"; sourceTree = "<group>"; };
-		9C4A8D2B1A33B6EEF3E2E92694C4C160 /* Pods-SheldonOrders.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SheldonOrders.modulemap"; sourceTree = "<group>"; };
-		9EC4B0742CABB115B4CD9395469F8458 /* PixelPerfectSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PixelPerfectSwift.modulemap; sourceTree = "<group>"; };
-		9F7C44CEE53A871F400C30FE434293BC /* PixelPerfectSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PixelPerfectSwift-umbrella.h"; sourceTree = "<group>"; };
-		B63AED314AB4DD9EE1C7181DEB2E8459 /* Pods-SheldonOrders-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SheldonOrders-acknowledgements.plist"; sourceTree = "<group>"; };
-		BADA8CE306EE22EC6D3A61B454A5D08D /* ScaleFactor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScaleFactor.swift; path = PixelPerfectSwift/Sources/ScaleFactor.swift; sourceTree = "<group>"; };
+		977888B38552D7D75863A9161CB4C597 /* Pods-SheldonOrders.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SheldonOrders.modulemap"; sourceTree = "<group>"; };
+		A1A0F06AF19E52967E9AAC48EDF6C6FA /* ScaleFactor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScaleFactor.swift; path = PixelPerfectSwift/Sources/ScaleFactor.swift; sourceTree = "<group>"; };
+		A65AA1A63EEA1A4CA22F8CA3824F901B /* PixelPerfectSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixelPerfectSwift.xcconfig; sourceTree = "<group>"; };
+		A87DE94EECE49E26823F334432F46114 /* PixelPerfectSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PixelPerfectSwift.framework; path = PixelPerfectSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD219CCE9F5687D4E0407630665C5A93 /* Pods_SheldonOrders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SheldonOrders.framework; path = "Pods-SheldonOrders.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCFF4EBD5D0CBF2365CEA39C3D2B37B /* Pods-SheldonOrders-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SheldonOrders-dummy.m"; sourceTree = "<group>"; };
+		B929C8EEC6211D3038D3F5571C422050 /* Pods-OrderMealIntents-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrderMealIntents-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA786928742BD070EEABE13B62ECCF62 /* Pods-OrderMealIntentsUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrderMealIntentsUI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BACECE3E4FB9B23A475ED9A80D7B31B7 /* Pods-OrderMealIntentsUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OrderMealIntentsUI.modulemap"; sourceTree = "<group>"; };
+		BB9F05A7B652E4A00E23752B2126F56A /* PixelPerfectSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PixelPerfectSwift-prefix.pch"; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C2D7B8B6F732CD2E463AF6214C4EBD80 /* Numbers+Scale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Numbers+Scale.swift"; path = "PixelPerfectSwift/Sources/Numbers+Scale.swift"; sourceTree = "<group>"; };
-		C48F03180B7879A4AD4E91C926E2D673 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD976B82817E237A72C5CBCED1E952FC /* Pods-SheldonOrders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SheldonOrders.debug.xcconfig"; sourceTree = "<group>"; };
-		D48298F428AB384517D95D2E318AD853 /* PixelPerfectSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixelPerfectSwift.xcconfig; sourceTree = "<group>"; };
-		FF573B135AD4A97D83D8A5FD812872D3 /* Pods-SheldonOrders-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SheldonOrders-frameworks.sh"; sourceTree = "<group>"; };
+		BE794DB4B9F9BC8D034BC1690C3512E9 /* Pods-OrderMealIntentsUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrderMealIntentsUI-dummy.m"; sourceTree = "<group>"; };
+		BEDA1D8BB92E2A5B8BF9573E075A8B55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA90A3890192EDF88E0FED0F25AA7E7 /* Pods-OrderMealIntentsUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrderMealIntentsUI-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8A7658B701CB5652CCEA0510F05AAC4 /* CYLocalization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLocalization-prefix.pch"; sourceTree = "<group>"; };
+		D14FF1BDF7CFCB280BF8F5B91BE53255 /* Pods_OrderMealIntents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OrderMealIntents.framework; path = "Pods-OrderMealIntents.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27422EBB7D3E6CDB7555C22E040F5EF /* Pods-SheldonOrders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SheldonOrders.release.xcconfig"; sourceTree = "<group>"; };
+		D5F51CF9C92DACD26336F7525E858FA4 /* Pods-OrderMealIntents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrderMealIntents-dummy.m"; sourceTree = "<group>"; };
+		DDEDABEF742DBF704C0F41A2747E28DB /* UILabel+Locale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Locale.swift"; path = "Classes/UILabel+Locale.swift"; sourceTree = "<group>"; };
+		E588ECAF74ED5540E30A8754C4A95A69 /* Numbers+Scale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Numbers+Scale.swift"; path = "PixelPerfectSwift/Sources/Numbers+Scale.swift"; sourceTree = "<group>"; };
+		EAD4B7F85F84940D62E7EA609BA06D32 /* PixelPerfectSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PixelPerfectSwift.modulemap; sourceTree = "<group>"; };
+		EFAFD386059CBB4D3DB9B0DEBF505A9D /* Pods-SheldonOrders-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SheldonOrders-acknowledgements.plist"; sourceTree = "<group>"; };
+		F05F6A1FC6B46371AAB735870DDC4C1F /* CYLocalization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYLocalization.xcconfig; sourceTree = "<group>"; };
+		F7E6CF8A8A681380412C3AD181B7B6F7 /* PixelPerfectSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PixelPerfectSwift-dummy.m"; sourceTree = "<group>"; };
+		F84162F4D12C1988F2B87EC22A564801 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		01BC51D0A1C6E3503F5D0ED847FC1537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD400A523C00942785F9FD9BE4DE15D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682C63C932D8B5286E50B103C59F2974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC92235BE1D14790832E33CD5737669A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8835A147C6E177938B1494A872A41016 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,11 +158,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA1522DFE268FCF4A6BA720A9CA6BF5B /* Frameworks */ = {
+		AE5A5657FF9FE466FFE82694B715F1A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1D00AD1B19D5C73B9DE65958641EE1E /* Foundation.framework in Frameworks */,
+				4ADC6F99F759818544F27DEFC57CE5A4 /* Foundation.framework in Frameworks */,
+				E455270F2F78E096D6AE455656FFBB32 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0613FD3137D42DB6639F938B5E208DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96E453632C7D2BA7C7CB189A3B93DA0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +187,38 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		276AA02B8AEB405FDFEABE1CBF41527B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A757FBB3BD987C2C6F9287D6E6722EC /* CYLocalization.framework */,
+				A87DE94EECE49E26823F334432F46114 /* PixelPerfectSwift.framework */,
+				D14FF1BDF7CFCB280BF8F5B91BE53255 /* Pods_OrderMealIntents.framework */,
+				489AB9985CC249DBAA9A0EA2705A61AC /* Pods_OrderMealIntentsUI.framework */,
+				AD219CCE9F5687D4E0407630665C5A93 /* Pods_SheldonOrders.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A70536C590A016452C14AB85FD42CC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42A78927626285B621498D2C626AA9C6 /* CYLocalization */,
+				4B7EE15E134DE74A113F30570052430D /* PixelPerfectSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42A78927626285B621498D2C626AA9C6 /* CYLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				241F5E7D7ED165607FFCF41AD7E491D9 /* String+Locale.swift */,
+				DDEDABEF742DBF704C0F41A2747E28DB /* UILabel+Locale.swift */,
+				F2575CBC09FFD07FA8BE5E6E9904A122 /* Support Files */,
+			);
+			name = CYLocalization;
+			path = CYLocalization;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,29 +227,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5A5D97C94251DE9DAD5DBD8265A77923 /* Targets Support Files */ = {
+		4B7EE15E134DE74A113F30570052430D /* PixelPerfectSwift */ = {
 			isa = PBXGroup;
 			children = (
-				FF4A0D13CBE62C0BF94D5A83BA7C018A /* Pods-SheldonOrders */,
+				531D2E7DFF57B7B8E1574EAD15B32391 /* Devices.swift */,
+				E588ECAF74ED5540E30A8754C4A95A69 /* Numbers+Scale.swift */,
+				A1A0F06AF19E52967E9AAC48EDF6C6FA /* ScaleFactor.swift */,
+				8BA8BC876F326243486C4768016B526F /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = PixelPerfectSwift;
+			path = PixelPerfectSwift;
 			sourceTree = "<group>";
 		};
-		6D9ED58C8C59F6642351D08960CB1289 /* Pods */ = {
+		59987A9EFAF57621C3917995B854157B /* Pods-OrderMealIntentsUI */ = {
 			isa = PBXGroup;
 			children = (
-				8A2E5C3EED23D262851DCA8C9718DA5E /* PixelPerfectSwift */,
+				77271228295F08AA3FBE3F4BA0F0361E /* Info.plist */,
+				BACECE3E4FB9B23A475ED9A80D7B31B7 /* Pods-OrderMealIntentsUI.modulemap */,
+				BA786928742BD070EEABE13B62ECCF62 /* Pods-OrderMealIntentsUI-acknowledgements.markdown */,
+				BFA90A3890192EDF88E0FED0F25AA7E7 /* Pods-OrderMealIntentsUI-acknowledgements.plist */,
+				BE794DB4B9F9BC8D034BC1690C3512E9 /* Pods-OrderMealIntentsUI-dummy.m */,
+				8BA7B3BB04916F8E3B60E71C21BBA4F6 /* Pods-OrderMealIntentsUI-resources.sh */,
+				453E333A2EFCBD3761CF2310E56FE26C /* Pods-OrderMealIntentsUI-umbrella.h */,
+				8296D7A2C6DC2AE7C9994D0495D56D65 /* Pods-OrderMealIntentsUI.debug.xcconfig */,
+				66A9A0166D5CF5DD9B61591891FA920A /* Pods-OrderMealIntentsUI.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Pods-OrderMealIntentsUI";
+			path = "Target Support Files/Pods-OrderMealIntentsUI";
 			sourceTree = "<group>";
 		};
-		7263ED826E5A4811FCD4F6A58247C083 /* Products */ = {
+		7115FB357B4822A3964B2D29723B3FD4 /* Pods-OrderMealIntents */ = {
 			isa = PBXGroup;
 			children = (
-				14D1330B9D1FDC11ABCB30FB03150058 /* PixelPerfectSwift.framework */,
-				815913D8C97732787C810D9F171261C8 /* Pods_SheldonOrders.framework */,
+				40040EC1B7857C81287224A58594F508 /* Info.plist */,
+				9052CA319D2A65ACECFA652EBF47138E /* Pods-OrderMealIntents.modulemap */,
+				462D5E4A266E7BBF47EBC83B223FF3E1 /* Pods-OrderMealIntents-acknowledgements.markdown */,
+				B929C8EEC6211D3038D3F5571C422050 /* Pods-OrderMealIntents-acknowledgements.plist */,
+				D5F51CF9C92DACD26336F7525E858FA4 /* Pods-OrderMealIntents-dummy.m */,
+				61D0EBAE5068C1D7F2B872C9AD139557 /* Pods-OrderMealIntents-resources.sh */,
+				29DA4EE550136CC7B8D77264B066EB7F /* Pods-OrderMealIntents-umbrella.h */,
+				7C83E4A04B2B7705D3D1C3C3157EE3F6 /* Pods-OrderMealIntents.debug.xcconfig */,
+				180E2E69273306D775BF907772338466 /* Pods-OrderMealIntents.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-OrderMealIntents";
+			path = "Target Support Files/Pods-OrderMealIntents";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -124,64 +278,84 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				6D9ED58C8C59F6642351D08960CB1289 /* Pods */,
-				7263ED826E5A4811FCD4F6A58247C083 /* Products */,
-				5A5D97C94251DE9DAD5DBD8265A77923 /* Targets Support Files */,
+				2A70536C590A016452C14AB85FD42CC7 /* Pods */,
+				276AA02B8AEB405FDFEABE1CBF41527B /* Products */,
+				DB78877A8F3BBD10CCE73DD73D414069 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8A2E5C3EED23D262851DCA8C9718DA5E /* PixelPerfectSwift */ = {
+		8BA8BC876F326243486C4768016B526F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2C507012E3D1BB0CA972AAFEEF679D62 /* Devices.swift */,
-				C2D7B8B6F732CD2E463AF6214C4EBD80 /* Numbers+Scale.swift */,
-				BADA8CE306EE22EC6D3A61B454A5D08D /* ScaleFactor.swift */,
-				A7328C7D66E4BAA211675B61028971BA /* Support Files */,
-			);
-			name = PixelPerfectSwift;
-			path = PixelPerfectSwift;
-			sourceTree = "<group>";
-		};
-		A7328C7D66E4BAA211675B61028971BA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C48F03180B7879A4AD4E91C926E2D673 /* Info.plist */,
-				9EC4B0742CABB115B4CD9395469F8458 /* PixelPerfectSwift.modulemap */,
-				D48298F428AB384517D95D2E318AD853 /* PixelPerfectSwift.xcconfig */,
-				3238D5B5452BFA7F211D466C0ED35081 /* PixelPerfectSwift-dummy.m */,
-				4C5660F297C40FF07F3801650D04BBE7 /* PixelPerfectSwift-prefix.pch */,
-				9F7C44CEE53A871F400C30FE434293BC /* PixelPerfectSwift-umbrella.h */,
+				F84162F4D12C1988F2B87EC22A564801 /* Info.plist */,
+				EAD4B7F85F84940D62E7EA609BA06D32 /* PixelPerfectSwift.modulemap */,
+				A65AA1A63EEA1A4CA22F8CA3824F901B /* PixelPerfectSwift.xcconfig */,
+				F7E6CF8A8A681380412C3AD181B7B6F7 /* PixelPerfectSwift-dummy.m */,
+				BB9F05A7B652E4A00E23752B2126F56A /* PixelPerfectSwift-prefix.pch */,
+				8FE76ED3A0DC703A6C7DEF6B427FC6FD /* PixelPerfectSwift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PixelPerfectSwift";
 			sourceTree = "<group>";
 		};
-		FF4A0D13CBE62C0BF94D5A83BA7C018A /* Pods-SheldonOrders */ = {
+		DB78877A8F3BBD10CCE73DD73D414069 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				210E19F0EBA3D5EF0AD2898DCB73B92B /* Info.plist */,
-				9C4A8D2B1A33B6EEF3E2E92694C4C160 /* Pods-SheldonOrders.modulemap */,
-				00C9052892F8704DDBA340EBB0B39BA4 /* Pods-SheldonOrders-acknowledgements.markdown */,
-				B63AED314AB4DD9EE1C7181DEB2E8459 /* Pods-SheldonOrders-acknowledgements.plist */,
-				17615E3D021E64DB2B70B7389AAB57BD /* Pods-SheldonOrders-dummy.m */,
-				FF573B135AD4A97D83D8A5FD812872D3 /* Pods-SheldonOrders-frameworks.sh */,
-				97D661AF6989BBAB8C3C14D88AD26BE3 /* Pods-SheldonOrders-resources.sh */,
-				03C0AB77CBDD78B71189AEEBC0851745 /* Pods-SheldonOrders-umbrella.h */,
-				CD976B82817E237A72C5CBCED1E952FC /* Pods-SheldonOrders.debug.xcconfig */,
-				670E7FA3C233B265BEAC399E93EB8D8F /* Pods-SheldonOrders.release.xcconfig */,
+				7115FB357B4822A3964B2D29723B3FD4 /* Pods-OrderMealIntents */,
+				59987A9EFAF57621C3917995B854157B /* Pods-OrderMealIntentsUI */,
+				ECA0A04D5DE7FE87D4449860E80C5A98 /* Pods-SheldonOrders */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ECA0A04D5DE7FE87D4449860E80C5A98 /* Pods-SheldonOrders */ = {
+			isa = PBXGroup;
+			children = (
+				BEDA1D8BB92E2A5B8BF9573E075A8B55 /* Info.plist */,
+				977888B38552D7D75863A9161CB4C597 /* Pods-SheldonOrders.modulemap */,
+				7B261654463EE6CD30B3D19AF631730A /* Pods-SheldonOrders-acknowledgements.markdown */,
+				EFAFD386059CBB4D3DB9B0DEBF505A9D /* Pods-SheldonOrders-acknowledgements.plist */,
+				ADCFF4EBD5D0CBF2365CEA39C3D2B37B /* Pods-SheldonOrders-dummy.m */,
+				79A4C17477C4359888C535C3D7EEAC97 /* Pods-SheldonOrders-frameworks.sh */,
+				7483D5EEED45008438F35B435806262D /* Pods-SheldonOrders-resources.sh */,
+				4812BCE7CD08818AB1A46632E9273234 /* Pods-SheldonOrders-umbrella.h */,
+				7FB24D610B195CD7848005696341D934 /* Pods-SheldonOrders.debug.xcconfig */,
+				D27422EBB7D3E6CDB7555C22E040F5EF /* Pods-SheldonOrders.release.xcconfig */,
 			);
 			name = "Pods-SheldonOrders";
 			path = "Target Support Files/Pods-SheldonOrders";
 			sourceTree = "<group>";
 		};
+		F2575CBC09FFD07FA8BE5E6E9904A122 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13E8891B05CA796B1B8AD101DCEF66FF /* CYLocalization.modulemap */,
+				F05F6A1FC6B46371AAB735870DDC4C1F /* CYLocalization.xcconfig */,
+				418F25819A73E2112B80FE65F18DAA72 /* CYLocalization-dummy.m */,
+				C8A7658B701CB5652CCEA0510F05AAC4 /* CYLocalization-prefix.pch */,
+				8C7DA40142980508C0DC9089442EABBC /* CYLocalization-umbrella.h */,
+				8DAF11BE652EE334D82A1D95E283AE96 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CYLocalization";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		185D1B7D327AC841036D50D729C5E1F1 /* Headers */ = {
+		5CA570567C04CB908C5B8F56644458FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D1980864B638845FB5349577008C784 /* Pods-SheldonOrders-umbrella.h in Headers */,
+				FDABCC7A33AB13855118B1785AE865EB /* CYLocalization-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887613B235B04233B2998490611DB398 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D941DD4A03A58C692502F6C8AC422A /* Pods-OrderMealIntentsUI-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,9 +367,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC199A48788C3060DB98B7F4B7FCF2D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5C34C74C11C657FD1508A3993A2413 /* Pods-SheldonOrders-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2B7E2E444A06FD1906AD46547514CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18B4BF20FAA93F4B49A3E4874480E75 /* Pods-OrderMealIntents-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		797DFC42143AD5E14998F0570C754BB7 /* CYLocalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7585B5858FAAAD7D3B4045FA2D4975F9 /* Build configuration list for PBXNativeTarget "CYLocalization" */;
+			buildPhases = (
+				5CA570567C04CB908C5B8F56644458FF /* Headers */,
+				81152CECC01C30F975C647891CF1BDEB /* Sources */,
+				AE5A5657FF9FE466FFE82694B715F1A2 /* Frameworks */,
+				25912435A359531F84E56A66259A41A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYLocalization;
+			productName = CYLocalization;
+			productReference = 5A757FBB3BD987C2C6F9287D6E6722EC /* CYLocalization.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90F5F64A9CAF582A1919306FD4D7FAE2 /* Pods-OrderMealIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E7CA1B1CD0EE905979EF7532C13CCAB /* Build configuration list for PBXNativeTarget "Pods-OrderMealIntents" */;
+			buildPhases = (
+				DE2B7E2E444A06FD1906AD46547514CF /* Headers */,
+				9A0BCB3956F674A7F331AC31272C2292 /* Sources */,
+				682C63C932D8B5286E50B103C59F2974 /* Frameworks */,
+				F78425151FBA74209192738D64158EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEDC8451F16C9D3EBFE1D51A06D583E /* PBXTargetDependency */,
+				527F040CC97FD660DF4FA32154AB0C18 /* PBXTargetDependency */,
+			);
+			name = "Pods-OrderMealIntents";
+			productName = "Pods-OrderMealIntents";
+			productReference = D14FF1BDF7CFCB280BF8F5B91BE53255 /* Pods_OrderMealIntents.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B810B43C6530DC7F8962BA1A416B0A48 /* PixelPerfectSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2601A6FA4069328FF821E296EB346105 /* Build configuration list for PBXNativeTarget "PixelPerfectSwift" */;
@@ -211,26 +439,47 @@
 			);
 			name = PixelPerfectSwift;
 			productName = PixelPerfectSwift;
-			productReference = 14D1330B9D1FDC11ABCB30FB03150058 /* PixelPerfectSwift.framework */;
+			productReference = A87DE94EECE49E26823F334432F46114 /* PixelPerfectSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D107B0056F59240A0434E54C07701039 /* Pods-SheldonOrders */ = {
+		CB28485C706EC0FE15C0EF191C9F67CE /* Pods-OrderMealIntentsUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7173E5B2872E837B5108ABD21B6BECA1 /* Build configuration list for PBXNativeTarget "Pods-SheldonOrders" */;
+			buildConfigurationList = 8973F9B438FD4958CE59946D5A9038CE /* Build configuration list for PBXNativeTarget "Pods-OrderMealIntentsUI" */;
 			buildPhases = (
-				185D1B7D327AC841036D50D729C5E1F1 /* Headers */,
-				5B53128AD9C509D4F22D65407CEB131D /* Sources */,
-				CA1522DFE268FCF4A6BA720A9CA6BF5B /* Frameworks */,
-				4CFEFE82ABC8D305405F4C4F87E57FB4 /* Resources */,
+				887613B235B04233B2998490611DB398 /* Headers */,
+				B26D5BF3666BCEB00453C31D99E27C72 /* Sources */,
+				01BC51D0A1C6E3503F5D0ED847FC1537 /* Frameworks */,
+				1178B9BC990A2CB0A1D95C110DFF08CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C4FFC70BABCB91C1E73868AA745DB405 /* PBXTargetDependency */,
+				D4A26289DB319C8E1D8CC30A8B6519A6 /* PBXTargetDependency */,
+				07FC8A72F0623A73D805D3A36584EB06 /* PBXTargetDependency */,
+			);
+			name = "Pods-OrderMealIntentsUI";
+			productName = "Pods-OrderMealIntentsUI";
+			productReference = 489AB9985CC249DBAA9A0EA2705A61AC /* Pods_OrderMealIntentsUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D05BD2E7439CE4A44BC47696289B3DDF /* Pods-SheldonOrders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C810EC3AB8DD9C6FA9A2235F25E0510E /* Build configuration list for PBXNativeTarget "Pods-SheldonOrders" */;
+			buildPhases = (
+				DC199A48788C3060DB98B7F4B7FCF2D3 /* Headers */,
+				6D3A43FACC519EC9B7C044759CAB33DE /* Sources */,
+				C0613FD3137D42DB6639F938B5E208DE /* Frameworks */,
+				F16A735AE570B46308FC33DA145712CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA832929F6D7211610013731A08500C /* PBXTargetDependency */,
+				D6D2DC4AB279A08F3BA4A0180DB5E894 /* PBXTargetDependency */,
 			);
 			name = "Pods-SheldonOrders";
 			productName = "Pods-SheldonOrders";
-			productReference = 815913D8C97732787C810D9F171261C8 /* Pods_SheldonOrders.framework */;
+			productReference = AD219CCE9F5687D4E0407630665C5A93 /* Pods_SheldonOrders.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -250,17 +499,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7263ED826E5A4811FCD4F6A58247C083 /* Products */;
+			productRefGroup = 276AA02B8AEB405FDFEABE1CBF41527B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				797DFC42143AD5E14998F0570C754BB7 /* CYLocalization */,
 				B810B43C6530DC7F8962BA1A416B0A48 /* PixelPerfectSwift */,
-				D107B0056F59240A0434E54C07701039 /* Pods-SheldonOrders */,
+				90F5F64A9CAF582A1919306FD4D7FAE2 /* Pods-OrderMealIntents */,
+				CB28485C706EC0FE15C0EF191C9F67CE /* Pods-OrderMealIntentsUI */,
+				D05BD2E7439CE4A44BC47696289B3DDF /* Pods-SheldonOrders */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1178B9BC990A2CB0A1D95C110DFF08CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1787F4D16F99D04A7D54FFDB79E0F736 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,7 +527,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CFEFE82ABC8D305405F4C4F87E57FB4 /* Resources */ = {
+		25912435A359531F84E56A66259A41A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A735AE570B46308FC33DA145712CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78425151FBA74209192738D64158EA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,30 +562,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B53128AD9C509D4F22D65407CEB131D /* Sources */ = {
+		6D3A43FACC519EC9B7C044759CAB33DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				952ED5787B087F1E130315FA1A72158F /* Pods-SheldonOrders-dummy.m in Sources */,
+				2DA20AF4769ECB01E508F3C98E435520 /* Pods-SheldonOrders-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81152CECC01C30F975C647891CF1BDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85AC8E67678C69C31A539AD7F9D5E10 /* CYLocalization-dummy.m in Sources */,
+				4207F98A667A042DF00101CC0E63FF3C /* String+Locale.swift in Sources */,
+				86D9F6030B0D253BEF9BFFE4629408D9 /* UILabel+Locale.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0BCB3956F674A7F331AC31272C2292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1010A71B9CD4CF3FF34B3A94ECAFAF7 /* Pods-OrderMealIntents-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26D5BF3666BCEB00453C31D99E27C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D1E570ADE989C6812D1B3B8375593B /* Pods-OrderMealIntentsUI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C4FFC70BABCB91C1E73868AA745DB405 /* PBXTargetDependency */ = {
+		07FC8A72F0623A73D805D3A36584EB06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PixelPerfectSwift;
 			target = B810B43C6530DC7F8962BA1A416B0A48 /* PixelPerfectSwift */;
-			targetProxy = 56077AD1E84F9AEEEDFF01270DD48939 /* PBXContainerItemProxy */;
+			targetProxy = AF8C1225C07E56372C7282D990581CA1 /* PBXContainerItemProxy */;
+		};
+		1FEDC8451F16C9D3EBFE1D51A06D583E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYLocalization;
+			target = 797DFC42143AD5E14998F0570C754BB7 /* CYLocalization */;
+			targetProxy = 91D72324EB2357EE256392AB845CF5AC /* PBXContainerItemProxy */;
+		};
+		527F040CC97FD660DF4FA32154AB0C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PixelPerfectSwift;
+			target = B810B43C6530DC7F8962BA1A416B0A48 /* PixelPerfectSwift */;
+			targetProxy = BCF5AD38A27A28C135FE82F7DCA5B891 /* PBXContainerItemProxy */;
+		};
+		D4A26289DB319C8E1D8CC30A8B6519A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYLocalization;
+			target = 797DFC42143AD5E14998F0570C754BB7 /* CYLocalization */;
+			targetProxy = A69D0B7D0A70756A4125C68B0FBECA62 /* PBXContainerItemProxy */;
+		};
+		D6D2DC4AB279A08F3BA4A0180DB5E894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PixelPerfectSwift;
+			target = B810B43C6530DC7F8962BA1A416B0A48 /* PixelPerfectSwift */;
+			targetProxy = 8735F509BEAB716CCDBEFF550D3D3F42 /* PBXContainerItemProxy */;
+		};
+		FAA832929F6D7211610013731A08500C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYLocalization;
+			target = 797DFC42143AD5E14998F0570C754BB7 /* CYLocalization */;
+			targetProxy = 4D594C3521A7B81CD6159397746E65DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B2A239AA17BE922EC95696CD85A0BC0 /* Debug */ = {
+		00B37E55DB5135B5D1811EB5AF40D665 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D48298F428AB384517D95D2E318AD853 /* PixelPerfectSwift.xcconfig */;
+			baseConfigurationReference = 66A9A0166D5CF5DD9B61591891FA920A /* Pods-OrderMealIntentsUI.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -323,8 +654,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PixelPerfectSwift/PixelPerfectSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PixelPerfectSwift/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderMealIntentsUI/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,23 +662,66 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/PixelPerfectSwift/PixelPerfectSwift.modulemap";
-				PRODUCT_MODULE_NAME = PixelPerfectSwift;
-				PRODUCT_NAME = PixelPerfectSwift;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderMealIntentsUI/Pods-OrderMealIntentsUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		46BB2E0D7281A259DD89190FEB4C7126 /* Release */ = {
+		24499D131F1A2492FDD0CE988DBC7C34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 670E7FA3C233B265BEAC399E93EB8D8F /* Pods-SheldonOrders.release.xcconfig */;
+			baseConfigurationReference = F05F6A1FC6B46371AAB735870DDC4C1F /* CYLocalization.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYLocalization/CYLocalization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYLocalization/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CYLocalization/CYLocalization.modulemap";
+				PRODUCT_MODULE_NAME = CYLocalization;
+				PRODUCT_NAME = CYLocalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		248994E54F5613BD7FBA6AE3F8A0CF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27422EBB7D3E6CDB7555C22E040F5EF /* Pods-SheldonOrders.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -387,9 +760,169 @@
 			};
 			name = Release;
 		};
-		777E5AE146B197E1E60D88763D209CAF /* Debug */ = {
+		5E83F84F55C98944F7B1EAE7EA96293E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD976B82817E237A72C5CBCED1E952FC /* Pods-SheldonOrders.debug.xcconfig */;
+			baseConfigurationReference = F05F6A1FC6B46371AAB735870DDC4C1F /* CYLocalization.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYLocalization/CYLocalization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYLocalization/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CYLocalization/CYLocalization.modulemap";
+				PRODUCT_MODULE_NAME = CYLocalization;
+				PRODUCT_NAME = CYLocalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5FF51D49C06A9B3A390AF63456CA8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8296D7A2C6DC2AE7C9994D0495D56D65 /* Pods-OrderMealIntentsUI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderMealIntentsUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderMealIntentsUI/Pods-OrderMealIntentsUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A917EBB3761AE3F71BE9C0C086B3A00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65AA1A63EEA1A4CA22F8CA3824F901B /* PixelPerfectSwift.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PixelPerfectSwift/PixelPerfectSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PixelPerfectSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PixelPerfectSwift/PixelPerfectSwift.modulemap";
+				PRODUCT_MODULE_NAME = PixelPerfectSwift;
+				PRODUCT_NAME = PixelPerfectSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACA0DEC9045899F38B7BA81E72A34F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180E2E69273306D775BF907772338466 /* Pods-OrderMealIntents.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderMealIntents/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderMealIntents/Pods-OrderMealIntents.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCC87AA4582C13A6568A981EA130E708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FB24D610B195CD7848005696341D934 /* Pods-SheldonOrders.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -426,45 +959,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		A67414E817C612E248761798A70D7748 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D48298F428AB384517D95D2E318AD853 /* PixelPerfectSwift.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PixelPerfectSwift/PixelPerfectSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PixelPerfectSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PixelPerfectSwift/PixelPerfectSwift.modulemap";
-				PRODUCT_MODULE_NAME = PixelPerfectSwift;
-				PRODUCT_NAME = PixelPerfectSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -589,14 +1083,93 @@
 			};
 			name = Release;
 		};
+		FB80DBCE4DD74936447C1CA2C6250CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65AA1A63EEA1A4CA22F8CA3824F901B /* PixelPerfectSwift.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PixelPerfectSwift/PixelPerfectSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PixelPerfectSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PixelPerfectSwift/PixelPerfectSwift.modulemap";
+				PRODUCT_MODULE_NAME = PixelPerfectSwift;
+				PRODUCT_NAME = PixelPerfectSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2D1F89188955443F36B78B6157C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C83E4A04B2B7705D3D1C3C3157EE3F6 /* Pods-OrderMealIntents.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderMealIntents/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderMealIntents/Pods-OrderMealIntents.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2601A6FA4069328FF821E296EB346105 /* Build configuration list for PBXNativeTarget "PixelPerfectSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B2A239AA17BE922EC95696CD85A0BC0 /* Debug */,
-				A67414E817C612E248761798A70D7748 /* Release */,
+				FB80DBCE4DD74936447C1CA2C6250CA1 /* Debug */,
+				A917EBB3761AE3F71BE9C0C086B3A00C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -610,11 +1183,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7173E5B2872E837B5108ABD21B6BECA1 /* Build configuration list for PBXNativeTarget "Pods-SheldonOrders" */ = {
+		7585B5858FAAAD7D3B4045FA2D4975F9 /* Build configuration list for PBXNativeTarget "CYLocalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				777E5AE146B197E1E60D88763D209CAF /* Debug */,
-				46BB2E0D7281A259DD89190FEB4C7126 /* Release */,
+				5E83F84F55C98944F7B1EAE7EA96293E /* Debug */,
+				24499D131F1A2492FDD0CE988DBC7C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8973F9B438FD4958CE59946D5A9038CE /* Build configuration list for PBXNativeTarget "Pods-OrderMealIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FF51D49C06A9B3A390AF63456CA8C0 /* Debug */,
+				00B37E55DB5135B5D1811EB5AF40D665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E7CA1B1CD0EE905979EF7532C13CCAB /* Build configuration list for PBXNativeTarget "Pods-OrderMealIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB2D1F89188955443F36B78B6157C41 /* Debug */,
+				ACA0DEC9045899F38B7BA81E72A34F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C810EC3AB8DD9C6FA9A2235F25E0510E /* Build configuration list for PBXNativeTarget "Pods-SheldonOrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC87AA4582C13A6568A981EA130E708 /* Debug */,
+				248994E54F5613BD7FBA6AE3F8A0CF62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
