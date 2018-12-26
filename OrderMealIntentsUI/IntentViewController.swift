@@ -70,7 +70,7 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
     
     private func displayConfirm() -> CGSize {
         self.confirmView.titleLabel.text = "ConfirmView.Ordered".localized
-        self.confirmView.imageView.image = UIImage(named: "kebab") ?? UIImage()
+        self.confirmView.imageView.image = UIImage(named: "logo") ?? UIImage()
         
         let width = self.extensionContext?.hostedViewMaximumAllowedSize.width ?? 320
         let frame = CGRect(origin: .zero, size: CGSize(width: width, height: 170))

@@ -40,7 +40,7 @@ extension InvoiceView: UITableViewDataSource {
         let meal = items[indexPath.row]
         
         cell.titleLabel.text = meal.name
-        cell.mealImageView.image = UIImage(named: meal.mealType?.rawValue.lowercased() ?? "")
+        cell.mealImageView.image = UIImage(named: "logo")
         
         return cell
         

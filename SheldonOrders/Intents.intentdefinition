@@ -124,7 +124,7 @@
 			<key>INIntentDescriptionID</key>
 			<string>mFsuZh</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>12</integer>
+			<integer>16</integer>
 			<key>INIntentName</key>
 			<string>OrderMeal</string>
 			<key>INIntentParameterCombinations</key>
@@ -185,7 +185,7 @@
 					<key>INIntentParameterSupportsMultipleValues</key>
 					<true/>
 					<key>INIntentParameterTag</key>
-					<integer>12</integer>
+					<integer>14</integer>
 					<key>INIntentParameterType</key>
 					<string>String</string>
 				</dict>
@@ -211,7 +211,7 @@
 					<key>INIntentParameterSupportsMultipleValues</key>
 					<false/>
 					<key>INIntentParameterTag</key>
-					<integer>11</integer>
+					<integer>16</integer>
 					<key>INIntentParameterType</key>
 					<string>Integer</string>
 				</dict>
